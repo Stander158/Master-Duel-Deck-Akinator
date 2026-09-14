@@ -1,11 +1,11 @@
 import type { Archetype } from '../engine/types';
-import { TAGS } from './tags';
+import { DECKS } from './decks';
 
 /**
  * Archetype name registry.
  *
- * Names only. Every rating lives in `tags.ts` — nothing in this file judges a
- * deck. Add a name here and, if it needs tags, a matching entry there.
+ * Names only. Tags and descriptions live in `decks.ts` — nothing in this file
+ * judges a deck. Add a name here and a matching entry there.
  */
 const NAMES = [
   '@Ignister',
@@ -283,11 +283,11 @@ export function slugify(name: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
-export const ARCHETYPES: Archetype[] = NAMES.map((name) => ({
-  id: slugify(name),
-  name,
-  tags: TAGS[slugify(name)] ?? [],
-}));
+export const ARCHETYPES: Archetype[] = NAMES.map((name) => {
+  const id = slugify(name);
+  const info = DECKS[id];
+  return { id, name, tags: info?.tags ?? [], intro: info?.intro ?? '' };
+});
 
 export const ARCHETYPES_BY_ID: ReadonlyMap<string, Archetype> = new Map(
   ARCHETYPES.map((a) => [a.id, a]),

@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { ARCHETYPES } from '../data/archetypes';
-import { ALL_TAGS } from '../data/tags';
+import { ALL_TAGS } from '../data/decks';
 import { hrefFor } from '../hooks/useHashRoute';
 
 export function Archive() {

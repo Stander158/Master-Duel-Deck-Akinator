@@ -1,16 +1,15 @@
 import { describe, expect, it } from 'vitest';
 import { ARCHETYPES, slugify } from '../data/archetypes';
-import { GUIDES } from '../data/guides';
-import { TAGS } from '../data/tags';
+import { ALL_TAGS, DECKS } from '../data/decks';
 import { entropy, optionDelta, scoreArchetypes, softmax } from './scoring';
 import { nextQuestion, rankQuestions, STANDARD_QUIZ } from './selector';
 import type { Answer, Archetype, Question } from './types';
 
 const POOL: Archetype[] = [
-  { id: 'a', name: 'A', tags: ['fast', 'cheap'] },
-  { id: 'b', name: 'B', tags: ['slow', 'cheap'] },
-  { id: 'c', name: 'C', tags: ['fast', 'pricey'] },
-  { id: 'd', name: 'D', tags: ['slow', 'pricey'] },
+  { id: 'a', name: 'A', intro: '', tags: ['fast', 'cheap'] },
+  { id: 'b', name: 'B', intro: '', tags: ['slow', 'cheap'] },
+  { id: 'c', name: 'C', intro: '', tags: ['fast', 'pricey'] },
+  { id: 'd', name: 'D', intro: '', tags: ['slow', 'pricey'] },
 ];
 
 const QUESTIONS: Question[] = [
@@ -49,35 +48,29 @@ describe('archetype registry', () => {
 
   it('carries no ratings of its own', () => {
     for (const a of ARCHETYPES) {
-      expect(Object.keys(a).sort(), a.name).toEqual(['id', 'name', 'tags']);
+      expect(Object.keys(a).sort(), a.name).toEqual(['id', 'intro', 'name', 'tags']);
     }
   });
 });
 
-describe('tag table', () => {
+describe('deck table', () => {
   it('only references archetypes that exist', () => {
     const ids = new Set(ARCHETYPES.map((a) => a.id));
-    for (const key of Object.keys(TAGS)) {
-      expect(ids.has(key), `unknown archetype id: ${key}`).toBe(true);
-    }
-  });
-});
-
-describe('guide table', () => {
-  it('only references archetypes that exist', () => {
-    const ids = new Set(ARCHETYPES.map((a) => a.id));
-    for (const key of Object.keys(GUIDES)) {
+    for (const key of Object.keys(DECKS)) {
       expect(ids.has(key), `unknown archetype id: ${key}`).toBe(true);
     }
   });
 
-  it('gives every section a heading and at least one block', () => {
-    for (const [id, guide] of Object.entries(GUIDES)) {
-      for (const section of guide.sections ?? []) {
-        expect(section.heading.length, id).toBeGreaterThan(0);
-        expect(section.blocks.length, `${id}/${section.heading}`).toBeGreaterThan(0);
-      }
+  it('has no blank tags and no blank intros', () => {
+    for (const [id, info] of Object.entries(DECKS)) {
+      for (const tag of info.tags ?? []) expect(tag.trim().length, id).toBeGreaterThan(0);
+      if (info.intro !== undefined) expect(info.intro.trim().length, id).toBeGreaterThan(0);
     }
+  });
+
+  it('lists every tag in use exactly once', () => {
+    const used = new Set(Object.values(DECKS).flatMap((d) => d.tags ?? []));
+    expect(ALL_TAGS).toEqual([...used].sort());
   });
 });
 

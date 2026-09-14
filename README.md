@@ -14,24 +14,30 @@ A deck recommender for Yu-Gi-Oh! Master Duel. React + TypeScript + Vite, no back
 | File | Contents |
 | --- | --- |
 | `src/data/archetypes.ts` | Archetype names. Names only — nothing here rates a deck. |
-| `src/data/tags.ts` | Tags per archetype, keyed by id. Currently empty. |
+| `src/data/decks.ts` | Tags and a short description per archetype. Currently empty. |
 | `src/data/questions.ts` | Questions. Each option points at tag names. Currently empty. |
-| `src/data/guides.ts` | Long-form text for an archetype page. Currently empty. |
 
-The quiz modes stay inactive until `tags.ts` and `questions.ts` are filled in.
+The quiz modes stay inactive until `decks.ts` and `questions.ts` are filled in.
 Archetypes without tags score zero and are never recommended.
 
-### Adding tags
+No cost, difficulty or tier fields on purpose: those go stale with every banlist
+and shop rotation, and a wrong number is worse than none.
+
+### Adding a deck entry
 
 ```ts
-// src/data/tags.ts
-export const TAGS: Record<string, string[]> = {
-  'blue-eyes': ['dragon', 'beatdown'],
+// src/data/decks.ts
+export const DECKS: Record<string, DeckInfo> = {
+  'blue-eyes': {
+    tags: ['dragon', 'beatdown'],
+    intro: 'One or two sentences on what the deck is and how it wins.',
+  },
 };
 ```
 
 Ids come from `slugify(name)` — lowercase, non-alphanumeric runs become `-`
 (`D/D/D` → `d-d-d`, `@Ignister` → `ignister`). Tests fail on unknown ids.
+Tags feed the archive filter automatically.
 
 ### Adding questions
 
@@ -51,35 +57,6 @@ export const QUESTIONS: Question[] = [
 
 A negative weight means "rather not". Question order is not fixed: the engine
 asks whichever question best separates the decks still in contention.
-
-### Adding a guide
-
-Surface screens stay flat; the archetype page is where depth belongs. A guide is
-a list of sections, and a section is a list of blocks — prose, bullets, card
-lists and callouts — so writing is not boxed into a fixed template.
-
-```ts
-// src/data/guides.ts
-export const GUIDES: Record<string, Guide> = {
-  'blue-eyes': {
-    intro: 'One or two sentences.',
-    facts: [{ label: 'Cost', value: '6 UR' }],
-    sections: [
-      {
-        heading: 'How it plays',
-        blocks: [
-          { p: 'A paragraph.' },
-          { list: ['A bullet'] },
-          { cards: ['A card to craft'] },
-          { note: 'A callout.' },
-        ],
-      },
-    ],
-  },
-};
-```
-
-An archetype with no entry just shows its name and tags.
 
 ## Development
 
