@@ -4,6 +4,10 @@
  * accents scarce is what makes the gold read as important.
  */
 :root {
+  /* The app commits to one dark world, so tell the browser: native scrollbars,
+     form controls and focus rings follow instead of rendering light-on-dark. */
+  color-scheme: dark;
+
   --md-void: #04060d;
   --md-abyss: #080d1a;
   --md-deep: #0c1324;
