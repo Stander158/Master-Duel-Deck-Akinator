@@ -7,10 +7,10 @@ import { nextQuestion, rankQuestions, STANDARD_QUIZ } from './selector';
 import type { Answer, Deck, Question } from './types';
 
 const POOL: Deck[] = [
-  { id: 'a', name: 'A', archetypes: [], intro: '', tags: ['fast', 'cheap'] },
-  { id: 'b', name: 'B', archetypes: [], intro: '', tags: ['slow', 'cheap'] },
-  { id: 'c', name: 'C', archetypes: [], intro: '', tags: ['fast', 'pricey'] },
-  { id: 'd', name: 'D', archetypes: [], intro: '', tags: ['slow', 'pricey'] },
+  { id: 'a', name: 'A', archetypes: [], intro: '', keyCards: [], tags: ['fast', 'cheap'] },
+  { id: 'b', name: 'B', archetypes: [], intro: '', keyCards: [], tags: ['slow', 'cheap'] },
+  { id: 'c', name: 'C', archetypes: [], intro: '', keyCards: [], tags: ['fast', 'pricey'] },
+  { id: 'd', name: 'D', archetypes: [], intro: '', keyCards: [], tags: ['slow', 'pricey'] },
 ];
 
 const QUESTIONS: Question[] = [

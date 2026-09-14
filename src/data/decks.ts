@@ -17,6 +17,12 @@ export interface DeckInput {
   archetypes: string[];
   tags: string[];
   intro?: string;
+  /**
+   * Card names exactly as printed. `npm run sync:cards` fetches their info
+   * and images from YGOPRODeck; a name that does not match exactly is
+   * reported rather than silently skipped.
+   */
+  keyCards?: string[];
 }
 
 const DECK_LIST: DeckInput[] = [
@@ -25,6 +31,7 @@ const DECK_LIST: DeckInput[] = [
   //   archetypes: ['branded', 'despia'],
   //   tags: ['fusion', 'midrange'],
   //   intro: 'One or two sentences on what the deck is and how it wins.',
+  //   keyCards: ['Branded Fusion', 'Albion the Branded Dragon'],
   // },
 ];
 
@@ -34,6 +41,7 @@ export const DECKS: Deck[] = DECK_LIST.map((d) => ({
   archetypes: d.archetypes,
   tags: d.tags,
   intro: d.intro ?? '',
+  keyCards: d.keyCards ?? [],
 }));
 
 export const DECKS_BY_ID: ReadonlyMap<string, Deck> = new Map(DECKS.map((d) => [d.id, d]));

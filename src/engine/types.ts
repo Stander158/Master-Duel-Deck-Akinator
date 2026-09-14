@@ -22,6 +22,27 @@ export interface Deck {
   tags: string[];
   /** Short description. Empty until written. */
   intro: string;
+  /**
+   * Card names to show on the deck page, exactly as printed. Info and images
+   * are fetched for these by `npm run sync:cards`.
+   */
+  keyCards: string[];
+}
+
+/** Slim card record from YGOPRODeck, written by `npm run sync:cards`. */
+export interface Card {
+  id: number;
+  name: string;
+  type: string;
+  desc: string;
+  archetype?: string;
+  atk?: number;
+  def?: number;
+  level?: number;
+  attribute?: string;
+  race?: string;
+  /** Image filename stem under public/cards/. Absent when no art exists. */
+  imageId?: number;
 }
 
 /** One option's contribution: a tag it points at and how strongly. */

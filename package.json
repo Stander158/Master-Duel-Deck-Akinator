@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "typecheck": "tsc -b --noEmit false --pretty",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "sync:archetypes": "node scripts/sync-archetypes.mjs",
+    "sync:cards": "vite-node scripts/sync-cards.ts"
   },
   "dependencies": {
     "react": "^18.3.1",
