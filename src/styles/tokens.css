@@ -1,0 +1,28 @@
+/*
+ * Master Duel palette: a very dark blue field, an electric cyan for anything
+ * interactive, and a warm gold reserved for the primary action. Keeping the
+ * accents scarce is what makes the gold read as important.
+ */
+:root {
+  --md-void: #04060d;
+  --md-abyss: #080d1a;
+  --md-deep: #0c1324;
+  --md-navy: #111b31;
+  --md-steel: #1a2641;
+  --md-edge: #2a3a5e;
+
+  --md-cyan: #3fe0ff;
+  --md-cyan-dim: #1a86b8;
+  --md-gold: #f2c75c;
+  --md-gold-soft: #ffe4a3;
+
+  --md-text: #e9eefc;
+  --md-text-dim: #a3b3d2;
+  --md-text-mute: #6c7d9d;
+
+  --ease: cubic-bezier(0.22, 0.8, 0.3, 1);
+  --dur-fast: 140ms;
+
+  --font-ui: 'Rajdhani', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+}
