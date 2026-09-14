@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { ARCHETYPES, slugify } from '../data/archetypes';
+import { GUIDES } from '../data/guides';
 import { TAGS } from '../data/tags';
 import { entropy, optionDelta, scoreArchetypes, softmax } from './scoring';
 import { nextQuestion, rankQuestions, STANDARD_QUIZ } from './selector';
@@ -58,6 +59,24 @@ describe('tag table', () => {
     const ids = new Set(ARCHETYPES.map((a) => a.id));
     for (const key of Object.keys(TAGS)) {
       expect(ids.has(key), `unknown archetype id: ${key}`).toBe(true);
+    }
+  });
+});
+
+describe('guide table', () => {
+  it('only references archetypes that exist', () => {
+    const ids = new Set(ARCHETYPES.map((a) => a.id));
+    for (const key of Object.keys(GUIDES)) {
+      expect(ids.has(key), `unknown archetype id: ${key}`).toBe(true);
+    }
+  });
+
+  it('gives every section a heading and at least one block', () => {
+    for (const [id, guide] of Object.entries(GUIDES)) {
+      for (const section of guide.sections ?? []) {
+        expect(section.heading.length, id).toBeGreaterThan(0);
+        expect(section.blocks.length, `${id}/${section.heading}`).toBeGreaterThan(0);
+      }
     }
   });
 });
