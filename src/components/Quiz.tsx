@@ -27,7 +27,7 @@ export function Quiz({ title, resultCount = 5 }: { title: string; resultCount?: 
     return (
       <div className="stack">
         <h1>{title}</h1>
-        <p className="muted">No questions yet — they need the tag list first.</p>
+        <p className="muted">No questions yet — they need decks and tags first.</p>
         <a className="tile" href={hrefFor({ name: 'browse' })}>
           Archive <span aria-hidden="true">→</span>
         </a>
@@ -75,9 +75,9 @@ export function Quiz({ title, resultCount = 5 }: { title: string; resultCount?: 
       <h1>Results</h1>
       <ol className="results">
         {results.map((r) => (
-          <li key={r.archetype.id}>
-            <a className="result" href={hrefFor({ name: 'deck', id: r.archetype.id })}>
-              <span>{r.archetype.name}</span>
+          <li key={r.deck.id}>
+            <a className="result" href={hrefFor({ name: 'deck', id: r.deck.id })}>
+              <span>{r.deck.name}</span>
               <span className="result__pct">{r.matchPercent}%</span>
             </a>
           </li>

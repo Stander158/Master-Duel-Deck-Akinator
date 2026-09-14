@@ -1,15 +1,16 @@
 import { describe, expect, it } from 'vitest';
-import { ARCHETYPES, slugify } from '../data/archetypes';
-import { ALL_TAGS, DECKS } from '../data/decks';
-import { entropy, optionDelta, scoreArchetypes, softmax } from './scoring';
+import { ARCHETYPES } from '../data/archetypes';
+import { ALL_TAGS, DECKS, decksUsing } from '../data/decks';
+import { slugify } from '../data/slugify';
+import { entropy, optionDelta, scoreDecks, softmax } from './scoring';
 import { nextQuestion, rankQuestions, STANDARD_QUIZ } from './selector';
-import type { Answer, Archetype, Question } from './types';
+import type { Answer, Deck, Question } from './types';
 
-const POOL: Archetype[] = [
-  { id: 'a', name: 'A', intro: '', tags: ['fast', 'cheap'] },
-  { id: 'b', name: 'B', intro: '', tags: ['slow', 'cheap'] },
-  { id: 'c', name: 'C', intro: '', tags: ['fast', 'pricey'] },
-  { id: 'd', name: 'D', intro: '', tags: ['slow', 'pricey'] },
+const POOL: Deck[] = [
+  { id: 'a', name: 'A', archetypes: [], intro: '', tags: ['fast', 'cheap'] },
+  { id: 'b', name: 'B', archetypes: [], intro: '', tags: ['slow', 'cheap'] },
+  { id: 'c', name: 'C', archetypes: [], intro: '', tags: ['fast', 'pricey'] },
+  { id: 'd', name: 'D', archetypes: [], intro: '', tags: ['slow', 'pricey'] },
 ];
 
 const QUESTIONS: Question[] = [
@@ -46,31 +47,52 @@ describe('archetype registry', () => {
     }
   });
 
-  it('carries no ratings of its own', () => {
+  it('is reference data only — no tags, no ratings', () => {
     for (const a of ARCHETYPES) {
-      expect(Object.keys(a).sort(), a.name).toEqual(['id', 'intro', 'name', 'tags']);
+      expect(Object.keys(a).sort(), a.name).toEqual(['id', 'name']);
     }
   });
 });
 
-describe('deck table', () => {
+describe('deck list', () => {
+  it('has unique ids', () => {
+    const ids = DECKS.map((d) => d.id);
+    expect(new Set(ids).size).toBe(ids.length);
+  });
+
   it('only references archetypes that exist', () => {
     const ids = new Set(ARCHETYPES.map((a) => a.id));
-    for (const key of Object.keys(DECKS)) {
-      expect(ids.has(key), `unknown archetype id: ${key}`).toBe(true);
+    for (const deck of DECKS) {
+      for (const archetypeId of deck.archetypes) {
+        expect(ids.has(archetypeId), `${deck.name} -> unknown archetype: ${archetypeId}`).toBe(true);
+      }
     }
   });
 
-  it('has no blank tags and no blank intros', () => {
-    for (const [id, info] of Object.entries(DECKS)) {
-      for (const tag of info.tags ?? []) expect(tag.trim().length, id).toBeGreaterThan(0);
-      if (info.intro !== undefined) expect(info.intro.trim().length, id).toBeGreaterThan(0);
+  it('gives every deck at least one archetype and one tag', () => {
+    for (const deck of DECKS) {
+      expect(deck.archetypes.length, deck.name).toBeGreaterThan(0);
+      expect(deck.tags.length, deck.name).toBeGreaterThan(0);
+    }
+  });
+
+  it('has no blank tags', () => {
+    for (const deck of DECKS) {
+      for (const tag of deck.tags) expect(tag.trim().length, deck.name).toBeGreaterThan(0);
     }
   });
 
   it('lists every tag in use exactly once', () => {
-    const used = new Set(Object.values(DECKS).flatMap((d) => d.tags ?? []));
+    const used = new Set(DECKS.flatMap((d) => d.tags));
     expect(ALL_TAGS).toEqual([...used].sort());
+  });
+
+  it('resolves decks back from an archetype', () => {
+    for (const deck of DECKS) {
+      for (const archetypeId of deck.archetypes) {
+        expect(decksUsing(archetypeId).map((d) => d.id)).toContain(deck.id);
+      }
+    }
   });
 });
 
@@ -87,13 +109,13 @@ describe('scoring', () => {
     expect(optionDelta(POOL[1]!, option)).toBeGreaterThan(0);
   });
 
-  it('scores every archetype at zero before any answer', () => {
-    expect(scoreArchetypes([], POOL)).toEqual([0, 0, 0, 0]);
+  it('scores every deck at zero before any answer', () => {
+    expect(scoreDecks([], POOL)).toEqual([0, 0, 0, 0]);
   });
 
   it('separates the pool once both questions are answered', () => {
     const options = [QUESTIONS[0]!.options[0]!, QUESTIONS[1]!.options[0]!];
-    const scores = scoreArchetypes(options, POOL);
+    const scores = scoreDecks(options, POOL);
     // A is fast + cheap, so it must outscore every other combination.
     expect(Math.max(...scores)).toBe(scores[0]);
   });

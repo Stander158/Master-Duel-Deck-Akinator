@@ -1,5 +1,5 @@
-import type { Answer, Archetype, QuestionOption, ScoredArchetype } from './types';
-import { ARCHETYPES } from '../data/archetypes';
+import type { Answer, Deck, QuestionOption, ScoredDeck } from './types';
+import { DECKS } from '../data/decks';
 import { QUESTIONS_BY_ID } from '../data/questions';
 
 /** Missing a tag costs less than having it pays, because tag lists are sparse. */
@@ -8,10 +8,10 @@ const MISS = 0.45;
 /** Softmax temperature. Lower is more decisive. */
 export const TEMPERATURE = 1.15;
 
-export function optionDelta(archetype: Archetype, option: QuestionOption): number {
+export function optionDelta(deck: Deck, option: QuestionOption): number {
   let total = 0;
   for (const { tag, weight } of option.effects) {
-    total += archetype.tags.includes(tag) ? weight : -MISS * weight;
+    total += deck.tags.includes(tag) ? weight : -MISS * weight;
   }
   return total;
 }
@@ -40,11 +40,11 @@ export function resolveAnswers(answers: Answer[]): QuestionOption[] {
   return options;
 }
 
-export function scoreArchetypes(
+export function scoreDecks(
   options: QuestionOption[],
-  pool: readonly Archetype[] = ARCHETYPES,
+  pool: readonly Deck[] = DECKS,
 ): number[] {
-  return pool.map((a) => options.reduce((sum, o) => sum + optionDelta(a, o), 0));
+  return pool.map((d) => options.reduce((sum, o) => sum + optionDelta(d, o), 0));
 }
 
 export function softmax(scores: readonly number[], temperature = TEMPERATURE): number[] {
@@ -62,13 +62,13 @@ export function entropy(probabilities: readonly number[]): number {
   return total;
 }
 
-/** Every archetype, scored and sorted best first. Untagged decks score zero. */
+/** Every deck, scored and sorted best first. Untagged decks score zero. */
 export function buildResults(
   answers: Answer[],
-  pool: readonly Archetype[] = ARCHETYPES,
-): ScoredArchetype[] {
+  pool: readonly Deck[] = DECKS,
+): ScoredDeck[] {
   const options = resolveAnswers(answers);
-  const scores = scoreArchetypes(options, pool);
+  const scores = scoreDecks(options, pool);
   const probabilities = softmax(scores);
 
   let high = 0;
@@ -81,10 +81,10 @@ export function buildResults(
   const span = Math.max(high - low, 1e-6);
 
   return pool
-    .map((archetype, i) => {
+    .map((deck, i) => {
       const score = scores[i] ?? 0;
       return {
-        archetype,
+        deck,
         score,
         matchPercent: options.length === 0 ? 0 : Math.round(((score - low) / span) * 100),
         probability: probabilities[i] ?? 0,

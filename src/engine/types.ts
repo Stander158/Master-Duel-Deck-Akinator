@@ -1,7 +1,24 @@
-/** An archetype. Tags and intro come from `src/data/decks.ts`. */
+/**
+ * A card family — the building block, not the thing you queue up with.
+ * Reference data only: archetypes carry no tags and are never recommended.
+ */
 export interface Archetype {
   id: string;
   name: string;
+}
+
+/**
+ * A playable deck: what the recommender actually returns.
+ *
+ * A deck is one or more archetypes plus whatever engine glues them together,
+ * so `Branded Despia` and `Tenyi Swordsoul` are decks built from two
+ * archetypes each, while a pure build uses one.
+ */
+export interface Deck {
+  id: string;
+  name: string;
+  /** Archetype ids this deck is built from. */
+  archetypes: string[];
   tags: string[];
   /** Short description. Empty until written. */
   intro: string;
@@ -31,8 +48,8 @@ export interface Answer {
   optionId: string | null;
 }
 
-export interface ScoredArchetype {
-  archetype: Archetype;
+export interface ScoredDeck {
+  deck: Deck;
   score: number;
   matchPercent: number;
   probability: number;

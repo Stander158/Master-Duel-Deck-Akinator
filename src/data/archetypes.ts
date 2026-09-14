@@ -1,11 +1,12 @@
 import type { Archetype } from '../engine/types';
-import { DECKS } from './decks';
+import { slugify } from './slugify';
 
 /**
- * Archetype name registry.
+ * Archetype name registry — the card families, not the decks.
  *
- * Names only. Tags and descriptions live in `decks.ts` — nothing in this file
- * judges a deck. Add a name here and a matching entry there.
+ * Reference data: an archetype is a building block a deck is made from, so
+ * nothing here is tagged, rated or recommended. Playable decks live in
+ * `decks.ts` and point back at these ids.
  */
 const NAMES = [
   '@Ignister',
@@ -276,18 +277,7 @@ const NAMES = [
   'Zoodiac',
 ] as const;
 
-export function slugify(name: string): string {
-  return name
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
-
-export const ARCHETYPES: Archetype[] = NAMES.map((name) => {
-  const id = slugify(name);
-  const info = DECKS[id];
-  return { id, name, tags: info?.tags ?? [], intro: info?.intro ?? '' };
-});
+export const ARCHETYPES: Archetype[] = NAMES.map((name) => ({ id: slugify(name), name }));
 
 export const ARCHETYPES_BY_ID: ReadonlyMap<string, Archetype> = new Map(
   ARCHETYPES.map((a) => [a.id, a]),

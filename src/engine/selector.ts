@@ -1,7 +1,7 @@
-import type { Answer, Archetype, Question } from './types';
-import { ARCHETYPES } from '../data/archetypes';
+import type { Answer, Deck, Question } from './types';
+import { DECKS } from '../data/decks';
 import { QUESTIONS } from '../data/questions';
-import { entropy, optionDelta, resolveAnswers, scoreArchetypes, softmax } from './scoring';
+import { entropy, optionDelta, resolveAnswers, scoreDecks, softmax } from './scoring';
 
 export interface QuizConfig {
   minQuestions: number;
@@ -34,20 +34,20 @@ function jitter(seed: number, questionId: string): number {
 export function rankQuestions(
   answers: Answer[],
   seed: number,
-  pool: readonly Archetype[] = ARCHETYPES,
+  pool: readonly Deck[] = DECKS,
   questions: readonly Question[] = QUESTIONS,
 ): { question: Question; gain: number }[] {
   const asked = new Set(answers.map((a) => a.questionId));
   const candidates = questions.filter((q) => !asked.has(q.id));
   if (candidates.length === 0) return [];
 
-  const priorScores = scoreArchetypes(resolveAnswers(answers), pool);
+  const priorScores = scoreDecks(resolveAnswers(answers), pool);
   const prior = softmax(priorScores);
   const priorEntropy = entropy(prior);
 
   return candidates
     .map((question) => {
-      const deltas = question.options.map((o) => pool.map((a) => optionDelta(a, o)));
+      const deltas = question.options.map((o) => pool.map((d) => optionDelta(d, o)));
 
       const likelihood = new Array<number>(question.options.length).fill(0);
       for (let a = 0; a < pool.length; a++) {
@@ -78,7 +78,7 @@ export function nextQuestion(
   answers: Answer[],
   seed: number,
   config: QuizConfig,
-  pool: readonly Archetype[] = ARCHETYPES,
+  pool: readonly Deck[] = DECKS,
   questions: readonly Question[] = QUESTIONS,
 ): Question | null {
   if (answers.length >= config.maxQuestions) return null;
@@ -87,7 +87,7 @@ export function nextQuestion(
   if (ranked.length === 0) return null;
   if (answers.length < config.minQuestions) return ranked[0]?.question ?? null;
 
-  const beliefs = softmax(scoreArchetypes(resolveAnswers(answers), pool));
+  const beliefs = softmax(scoreDecks(resolveAnswers(answers), pool));
   if (Math.max(0, ...beliefs) >= config.confidence) return null;
 
   return ranked[0]?.question ?? null;

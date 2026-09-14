@@ -6,7 +6,8 @@ export type Route =
   | { name: 'akinator' }
   | { name: 'identity' }
   | { name: 'browse' }
-  | { name: 'deck'; id: string };
+  | { name: 'deck'; id: string }
+  | { name: 'archetype'; id: string };
 
 export const MODE_ROUTES = ['build', 'akinator', 'identity'] as const;
 export type ModeName = (typeof MODE_ROUTES)[number];
@@ -25,6 +26,8 @@ function parse(hash: string): Route {
       return { name: 'browse' };
     case 'deck':
       return tail ? { name: 'deck', id: tail } : { name: 'browse' };
+    case 'archetype':
+      return tail ? { name: 'archetype', id: tail } : { name: 'browse' };
     default:
       return { name: 'home' };
   }
@@ -36,6 +39,8 @@ export function hrefFor(route: Route): string {
       return '#/';
     case 'deck':
       return `#/deck/${route.id}`;
+    case 'archetype':
+      return `#/archetype/${route.id}`;
     default:
       return `#/${route.name}`;
   }
@@ -68,7 +73,7 @@ export function useHashRoute(): { route: Route; navigate: (to: Route) => void } 
   // screens are tall and the header is sticky.
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'auto' });
-  }, [route.name, route.name === 'deck' ? route.id : '']);
+  }, [route.name, 'id' in route ? route.id : '']);
 
   return { route, navigate };
 }

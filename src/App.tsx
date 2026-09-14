@@ -1,4 +1,5 @@
 import { Archive } from './components/Archive';
+import { ArchetypePage } from './components/ArchetypePage';
 import { Deck } from './components/Deck';
 import { Home } from './components/Home';
 import { Quiz } from './components/Quiz';
@@ -16,6 +17,7 @@ export default function App() {
       {route.name === 'identity' && <Quiz title="Which deck is mine?" resultCount={1} />}
       {route.name === 'browse' && <Archive />}
       {route.name === 'deck' && <Deck id={route.id} />}
+      {route.name === 'archetype' && <ArchetypePage id={route.id} />}
     </Shell>
   );
 }
