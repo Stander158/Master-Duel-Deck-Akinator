@@ -27,6 +27,8 @@ const ages = read('archetype-ages.json');
  * Each question is a predicate over one archetype. Thresholds are first
  * guesses — the point of playing is to find out which ones are set wrong.
  */
+const DISABLED = new Set(['q1', 'q2', 'q3']);
+
 const QUESTIONS = {
   q1: ['Monster focused?', (f) => f.monsterPct >= 0.7],
   q2: ['Spell focused?', (f) => f.spellPct >= 0.35],
@@ -35,7 +37,8 @@ const QUESTIONS = {
   q5: ['Modern? (2021 or later)', (f, a) => Boolean(a && !a.legacy && a.firstSeen >= '2021')],
   q6: ['Primarily one Type?', (f) => (f.race?.share ?? 0) >= 0.8],
   q7: ['Primarily one Attribute?', (f) => (f.attribute?.share ?? 0) >= 0.8],
-  q8: ['Primarily one Level?', (f) => (f.level?.share ?? 0) >= 0.5],
+  // null = not applicable: a Link-only archetype has no Level to be one of.
+  q8: ['Primarily one Level?', (f) => (f.level ? f.level.share >= 0.5 : null)],
   q9: ['Still getting support?', (f, a) => Boolean(a && a.newCards12m > 0)],
   q11: ['Has a Normal monster?', (f) => f.hasNormalMonster],
   q14: ['Multiple Extra Deck types?', (f) => f.extraDeckMethods >= 2],
@@ -72,8 +75,10 @@ for (const arg of process.argv.slice(2)) {
 let pool = Object.keys(facts).filter((id) =>
   [...answers].every(([key, value]) => {
     if (value !== 'yes' && value !== 'no') return true;
-    const [, test] = QUESTIONS[key];
-    return test(facts[id], ages[id]) === (value === 'yes');
+    const result = QUESTIONS[key][1](facts[id], ages[id]);
+    // N/A never eliminates — the archetype simply cannot answer.
+    if (result === null) return true;
+    return result === (value === 'yes');
   }),
 );
 
@@ -90,10 +95,11 @@ if (pool.length <= 25) {
 
 // The most useful next question is whichever splits the pool closest to half.
 const ranked = Object.entries(QUESTIONS)
-  .filter(([key]) => !answers.has(key))
+  .filter(([key]) => !answers.has(key) && !DISABLED.has(key))
   .map(([key, [label, test]]) => {
-    const yes = pool.filter((id) => test(facts[id], ages[id])).length;
-    return { key, label, yes, no: pool.length - yes, split: Math.abs(0.5 - yes / pool.length) };
+    const yes = pool.filter((id) => test(facts[id], ages[id]) === true).length;
+    const no = pool.filter((id) => test(facts[id], ages[id]) === false).length;
+    return { key, label, yes, no, split: Math.abs(0.5 - yes / (yes + no || 1)) };
   })
   .filter((entry) => entry.yes > 0 && entry.no > 0)
   .sort((a, b) => a.split - b.split);
