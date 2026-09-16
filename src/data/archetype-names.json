@@ -1,268 +1,2342 @@
 [
-  "@Ignister",
-  "Abyss Actor",
-  "Adamancipator",
-  "Aesir",
-  "Alien",
-  "Altergeist",
-  "Amazement",
-  "Amazoness",
-  "Ancient Gear",
-  "Ancient Warriors",
-  "Appliancer",
-  "Aquaactress",
-  "Arcana Force",
-  "Archfiend",
-  "Argostars",
-  "Aroma",
-  "Artifact",
-  "Ashened",
-  "Atlantean",
-  "Azamina",
-  "Bamboo Sword",
-  "Barrier Statue",
-  "Batteryman",
-  "Battlewasp",
-  "Battlin' Boxer",
-  "Beetrooper",
-  "Blackwing",
-  "Blue-Eyes",
-  "Branded",
-  "Bujin",
-  "Burning Abyss",
-  "Bystial",
-  "Centur-Ion",
-  "Chemicritter",
-  "Chimera",
-  "Chronomaly",
-  "Cipher",
-  "Cloudian",
-  "Code Talker",
-  "Constellar",
-  "Crusadia",
-  "Crystal Beast",
-  "Crystron",
-  "Cubic",
-  "Cyber Angel",
-  "Cyber Dragon",
-  "Cyberdark",
-  "D/D/D",
-  "Danger!",
-  "Dark Magician",
-  "Dark World",
-  "Darklord",
-  "Deskbot",
-  "Despia",
-  "Destiny HERO",
-  "Diabellstar",
-  "Dinomist",
-  "Dinomorphia",
-  "Dinowrestler",
-  "Dogmatika",
-  "Dracoslayer",
-  "Dragonmaid",
-  "Dragunity",
-  "Drytron",
-  "Dual Avatar",
-  "Earthbound Immortal",
-  "Eldlich",
-  "Elemental HERO",
-  "Elementsaber",
-  "Endymion",
-  "Evil HERO",
-  "Evil Twin",
-  "Evilswarm",
-  "Evol",
-  "Exosister",
-  "F.A.",
-  "Fabled",
-  "Fiendsmith",
-  "Fire Fist",
-  "Fire King",
-  "Floowandereeze",
-  "Fluffal",
-  "Forbidden One",
-  "Fortune Lady",
-  "Frightfur",
-  "Frog",
-  "Fur Hire",
-  "Galaxy-Eyes",
-  "Geargia",
-  "Gem-Knight",
-  "Generaider",
-  "Genex",
-  "Ghostrick",
-  "Ghoti",
-  "Gimmick Puppet",
-  "Gishki",
-  "Gladiator Beast",
-  "Gold Pride",
-  "Gouki",
-  "Gravekeeper's",
-  "Gusto",
-  "Harpie",
-  "Heraldic",
-  "Hieratic",
-  "Horus",
-  "Ice Barrier",
-  "Icejade",
-  "Igknight",
-  "Impcantation",
-  "Infernity",
-  "Infernoble Knight",
-  "Infernoid",
-  "Infinitrack",
-  "Invoked",
-  "Inzektor",
-  "Iron Chain",
-  "Jurrac",
-  "Kaiju",
-  "Karakuri",
-  "Kashtira",
-  "Kozmo",
-  "Krawler",
-  "Kuriboh",
-  "Labrynth",
-  "Laval",
-  "Libromancer",
-  "Lightsworn",
-  "Live☆Twin",
-  "Lunalight",
-  "Lyrilusc",
-  "Machina",
-  "Madolche",
-  "Magical Musket",
-  "Magician Girl",
-  "Magikey",
-  "Majespecter",
-  "Malefic",
-  "Maliss",
-  "Marincess",
-  "Masked HERO",
-  "Mathmech",
-  "Mayakashi",
-  "Mecha Phantom Beast",
-  "Megalith",
-  "Mekk-Knight",
-  "Melffy",
-  "Melodious",
-  "Memento",
-  "Mermail",
-  "Metalfoes",
-  "Metaphys",
-  "Mikanko",
-  "Millennium",
-  "Mist Valley",
-  "Mitsurugi",
-  "Monarch",
-  "Morphtronic",
-  "Mulcharmy",
-  "Myutant",
-  "Naturia",
-  "Nekroz",
-  "Nemeses",
-  "Nemleria",
-  "Nephthys",
-  "Ninja",
-  "Noble Knight",
-  "Nordic",
-  "Nouvelles",
-  "Numeron",
-  "Odd-Eyes",
-  "Ogdoadic",
-  "Ojama",
-  "Orcust",
-  "P.U.N.K.",
-  "Paleozoic",
-  "Pendulum Magician",
-  "Performage",
-  "Performapal",
-  "Phantasm Spiral",
-  "Phantom Knights",
-  "Photon",
-  "Plunder Patroll",
-  "Prank-Kids",
-  "Predaplant",
-  "Primite",
-  "Prophecy",
-  "Purrely",
-  "Qliphort",
-  "Raidraptor",
-  "Red-Eyes",
-  "Reptilianne",
-  "Rescue-ACE",
-  "Resonator",
-  "Rikka",
-  "Ritual Beast",
-  "Rokket",
-  "Rose Dragon",
-  "Runick",
-  "Ryzeal",
-  "S-Force",
-  "Salamangreat",
-  "Scareclaw",
-  "Shaddoll",
-  "Shiranui",
-  "Simorgh",
-  "Six Samurai",
-  "Sky Striker",
-  "Skull Servant",
-  "Snake-Eye",
-  "Solfachord",
-  "Speedroid",
-  "Spellbook",
-  "Spright",
-  "Springans",
-  "SPYRAL",
-  "Subterror",
-  "Sunavalon",
-  "Superheavy Samurai",
-  "Swordsoul",
-  "Synchron",
-  "T.G.",
-  "Tachyon",
-  "Tearlaments",
-  "Tellarknight",
-  "Tenpai Dragon",
-  "Tenyi",
-  "Therion",
-  "Thunder Dragon",
-  "Time Thief",
-  "Timelord",
-  "Tindangle",
-  "Toon",
-  "Traptrix",
-  "Tri-Brigade",
-  "Triamid",
-  "Trickstar",
-  "True Draco",
-  "U.A.",
-  "Unchained",
-  "Ursarctic",
-  "Utopia",
-  "Vaalmonica",
-  "Vampire",
-  "Vanquish Soul",
-  "Vaylantz",
-  "Vendread",
-  "Venom",
-  "Virtual World",
-  "Vision HERO",
-  "Voiceless Voice",
-  "Volcanic",
-  "VWXYZ",
-  "War Rock",
-  "Watt",
-  "Weather Painter",
-  "White Forest",
-  "Wind-Up",
-  "Windwitch",
-  "Witchcrafter",
-  "World Chalice",
-  "X-Saber",
-  "Yang Zing",
-  "Yosenju",
-  "Yubel",
-  "Zefra",
-  "Zoodiac"
+  {
+    "id": "ignister",
+    "name": "@Ignister"
+  },
+  {
+    "id": "assault-mode",
+    "name": "/Assault Mode"
+  },
+  {
+    "id": "a-i",
+    "name": "A.I."
+  },
+  {
+    "id": "abyss",
+    "name": "Abyss"
+  },
+  {
+    "id": "abyss-actor",
+    "name": "Abyss Actor"
+  },
+  {
+    "id": "abyss-script",
+    "name": "Abyss Script"
+  },
+  {
+    "id": "abyss-2",
+    "name": "Abyss-"
+  },
+  {
+    "id": "adamancipator",
+    "name": "Adamancipator"
+  },
+  {
+    "id": "advanced-crystal-beast",
+    "name": "Advanced Crystal Beast"
+  },
+  {
+    "id": "aesir",
+    "name": "Aesir"
+  },
+  {
+    "id": "aether",
+    "name": "Aether"
+  },
+  {
+    "id": "alien",
+    "name": "Alien"
+  },
+  {
+    "id": "allure-queen",
+    "name": "Allure Queen"
+  },
+  {
+    "id": "ally-of-justice",
+    "name": "Ally of Justice"
+  },
+  {
+    "id": "altergeist",
+    "name": "Altergeist"
+  },
+  {
+    "id": "amazement",
+    "name": "Amazement"
+  },
+  {
+    "id": "amazoness",
+    "name": "Amazoness"
+  },
+  {
+    "id": "amorphage",
+    "name": "Amorphage"
+  },
+  {
+    "id": "ancient-gear",
+    "name": "Ancient Gear"
+  },
+  {
+    "id": "ancient-warriors",
+    "name": "Ancient Warriors"
+  },
+  {
+    "id": "apophis",
+    "name": "Apophis"
+  },
+  {
+    "id": "apoqliphort",
+    "name": "Apoqliphort"
+  },
+  {
+    "id": "appliancer",
+    "name": "Appliancer"
+  },
+  {
+    "id": "aqua",
+    "name": "Aqua"
+  },
+  {
+    "id": "aqua-jet",
+    "name": "Aqua Jet"
+  },
+  {
+    "id": "aquaactress",
+    "name": "Aquaactress"
+  },
+  {
+    "id": "aquamirror",
+    "name": "Aquamirror"
+  },
+  {
+    "id": "aquarium",
+    "name": "Aquarium"
+  },
+  {
+    "id": "arcana-force",
+    "name": "Arcana Force"
+  },
+  {
+    "id": "archfiend",
+    "name": "Archfiend"
+  },
+  {
+    "id": "argostars",
+    "name": "Argostars"
+  },
+  {
+    "id": "armed-dragon",
+    "name": "Armed Dragon"
+  },
+  {
+    "id": "armored-xyz",
+    "name": "Armored Xyz"
+  },
+  {
+    "id": "aroma",
+    "name": "Aroma"
+  },
+  {
+    "id": "artifact",
+    "name": "Artifact"
+  },
+  {
+    "id": "artorigus",
+    "name": "Artorigus"
+  },
+  {
+    "id": "ashened",
+    "name": "Ashened"
+  },
+  {
+    "id": "assault-blackwing",
+    "name": "Assault Blackwing"
+  },
+  {
+    "id": "atlantean",
+    "name": "Atlantean"
+  },
+  {
+    "id": "attraction",
+    "name": "Attraction"
+  },
+  {
+    "id": "azamina",
+    "name": "Azamina"
+  },
+  {
+    "id": "b-e-s",
+    "name": "B.E.S."
+  },
+  {
+    "id": "bamboo-sword",
+    "name": "Bamboo Sword"
+  },
+  {
+    "id": "barbaros",
+    "name": "Barbaros"
+  },
+  {
+    "id": "barian",
+    "name": "Barian"
+  },
+  {
+    "id": "barian-s",
+    "name": "Barian's"
+  },
+  {
+    "id": "batteryman",
+    "name": "Batteryman"
+  },
+  {
+    "id": "battleguard",
+    "name": "Battleguard"
+  },
+  {
+    "id": "battlewasp",
+    "name": "Battlewasp"
+  },
+  {
+    "id": "battlin-boxer",
+    "name": "Battlin' Boxer"
+  },
+  {
+    "id": "battlin-boxing",
+    "name": "Battlin' Boxing"
+  },
+  {
+    "id": "beast-s-battle",
+    "name": "Beast's Battle"
+  },
+  {
+    "id": "beetrooper",
+    "name": "Beetrooper"
+  },
+  {
+    "id": "black-luster-soldier",
+    "name": "Black Luster Soldier"
+  },
+  {
+    "id": "blackwing",
+    "name": "Blackwing"
+  },
+  {
+    "id": "blaze-accelerator",
+    "name": "Blaze Accelerator"
+  },
+  {
+    "id": "blue-tears",
+    "name": "Blue Tears"
+  },
+  {
+    "id": "blue-eyes",
+    "name": "Blue-Eyes"
+  },
+  {
+    "id": "bonding",
+    "name": "Bonding"
+  },
+  {
+    "id": "borrel",
+    "name": "Borrel"
+  },
+  {
+    "id": "bounzer",
+    "name": "Bounzer"
+  },
+  {
+    "id": "branded",
+    "name": "Branded"
+  },
+  {
+    "id": "bujin",
+    "name": "Bujin"
+  },
+  {
+    "id": "burning-abyss",
+    "name": "Burning Abyss"
+  },
+  {
+    "id": "buster-blader",
+    "name": "Buster Blader"
+  },
+  {
+    "id": "butterspy",
+    "name": "Butterspy"
+  },
+  {
+    "id": "bystial",
+    "name": "Bystial"
+  },
+  {
+    "id": "celtic-guard",
+    "name": "Celtic Guard"
+  },
+  {
+    "id": "centur-ion",
+    "name": "Centur-Ion"
+  },
+  {
+    "id": "change",
+    "name": "Change"
+  },
+  {
+    "id": "chaos",
+    "name": "Chaos"
+  },
+  {
+    "id": "charmer",
+    "name": "Charmer"
+  },
+  {
+    "id": "chemicritter",
+    "name": "Chemicritter"
+  },
+  {
+    "id": "chronomaly",
+    "name": "Chronomaly"
+  },
+  {
+    "id": "chrysalis",
+    "name": "Chrysalis"
+  },
+  {
+    "id": "cipher",
+    "name": "Cipher"
+  },
+  {
+    "id": "cipher-dragon",
+    "name": "Cipher Dragon"
+  },
+  {
+    "id": "clear-wing",
+    "name": "Clear Wing"
+  },
+  {
+    "id": "cloudian",
+    "name": "Cloudian"
+  },
+  {
+    "id": "code-talker",
+    "name": "Code Talker"
+  },
+  {
+    "id": "codebreaker",
+    "name": "Codebreaker"
+  },
+  {
+    "id": "constellar",
+    "name": "Constellar"
+  },
+  {
+    "id": "counter",
+    "name": "Counter"
+  },
+  {
+    "id": "crusadia",
+    "name": "Crusadia"
+  },
+  {
+    "id": "crystal",
+    "name": "Crystal"
+  },
+  {
+    "id": "crystal-beast",
+    "name": "Crystal Beast"
+  },
+  {
+    "id": "crystron",
+    "name": "Crystron"
+  },
+  {
+    "id": "cubic",
+    "name": "Cubic"
+  },
+  {
+    "id": "cxyz",
+    "name": "CXyz"
+  },
+  {
+    "id": "cyber",
+    "name": "Cyber"
+  },
+  {
+    "id": "cyber-angel",
+    "name": "Cyber Angel"
+  },
+  {
+    "id": "cyber-dragon",
+    "name": "Cyber Dragon"
+  },
+  {
+    "id": "cyberdark",
+    "name": "Cyberdark"
+  },
+  {
+    "id": "cybernetic",
+    "name": "Cybernetic"
+  },
+  {
+    "id": "cynet",
+    "name": "Cynet"
+  },
+  {
+    "id": "d-d",
+    "name": "D/D"
+  },
+  {
+    "id": "d-d-d",
+    "name": "D/D/D"
+  },
+  {
+    "id": "danger",
+    "name": "Danger!"
+  },
+  {
+    "id": "dante",
+    "name": "Dante"
+  },
+  {
+    "id": "dark-contract",
+    "name": "Dark Contract"
+  },
+  {
+    "id": "dark-lucius",
+    "name": "Dark Lucius"
+  },
+  {
+    "id": "dark-magician",
+    "name": "Dark Magician"
+  },
+  {
+    "id": "dark-magician-girl",
+    "name": "Dark Magician Girl"
+  },
+  {
+    "id": "dark-mimic",
+    "name": "Dark Mimic"
+  },
+  {
+    "id": "dark-scorpion",
+    "name": "Dark Scorpion"
+  },
+  {
+    "id": "dark-world",
+    "name": "Dark World"
+  },
+  {
+    "id": "darklord",
+    "name": "Darklord"
+  },
+  {
+    "id": "deskbot",
+    "name": "Deskbot"
+  },
+  {
+    "id": "despia",
+    "name": "Despia"
+  },
+  {
+    "id": "destiny-hero",
+    "name": "Destiny HERO"
+  },
+  {
+    "id": "destruction-sword",
+    "name": "Destruction Sword"
+  },
+  {
+    "id": "diabell",
+    "name": "Diabell"
+  },
+  {
+    "id": "diabellstar",
+    "name": "Diabellstar"
+  },
+  {
+    "id": "dinomist",
+    "name": "Dinomist"
+  },
+  {
+    "id": "dinomorphia",
+    "name": "Dinomorphia"
+  },
+  {
+    "id": "dinowrestler",
+    "name": "Dinowrestler"
+  },
+  {
+    "id": "djinn",
+    "name": "Djinn"
+  },
+  {
+    "id": "dododo",
+    "name": "Dododo"
+  },
+  {
+    "id": "dogmatika",
+    "name": "Dogmatika"
+  },
+  {
+    "id": "doll-monster",
+    "name": "Doll Monster"
+  },
+  {
+    "id": "dominus",
+    "name": "Dominus"
+  },
+  {
+    "id": "doodle",
+    "name": "Doodle"
+  },
+  {
+    "id": "doodle-beast",
+    "name": "Doodle Beast"
+  },
+  {
+    "id": "doodlebook",
+    "name": "Doodlebook"
+  },
+  {
+    "id": "dracoslayer",
+    "name": "Dracoslayer"
+  },
+  {
+    "id": "dracoverlord",
+    "name": "Dracoverlord"
+  },
+  {
+    "id": "dragon-ruler",
+    "name": "Dragon Ruler"
+  },
+  {
+    "id": "dragonmaid",
+    "name": "Dragonmaid"
+  },
+  {
+    "id": "dragontail",
+    "name": "Dragontail"
+  },
+  {
+    "id": "dragunity",
+    "name": "Dragunity"
+  },
+  {
+    "id": "dream-mirror",
+    "name": "Dream Mirror"
+  },
+  {
+    "id": "drytron",
+    "name": "Drytron"
+  },
+  {
+    "id": "dual-avatar",
+    "name": "Dual Avatar"
+  },
+  {
+    "id": "duston",
+    "name": "Duston"
+  },
+  {
+    "id": "earthbound",
+    "name": "Earthbound"
+  },
+  {
+    "id": "earthbound-immortal",
+    "name": "Earthbound Immortal"
+  },
+  {
+    "id": "edge-imp",
+    "name": "Edge Imp"
+  },
+  {
+    "id": "elder-entity",
+    "name": "Elder Entity"
+  },
+  {
+    "id": "eldlich",
+    "name": "Eldlich"
+  },
+  {
+    "id": "eldlixir",
+    "name": "Eldlixir"
+  },
+  {
+    "id": "elemental-hero",
+    "name": "Elemental HERO"
+  },
+  {
+    "id": "elemental-lord",
+    "name": "Elemental Lord"
+  },
+  {
+    "id": "elementsaber",
+    "name": "Elementsaber"
+  },
+  {
+    "id": "emblema",
+    "name": "Emblema"
+  },
+  {
+    "id": "empowered-warrior",
+    "name": "Empowered Warrior"
+  },
+  {
+    "id": "endymion",
+    "name": "Endymion"
+  },
+  {
+    "id": "entity",
+    "name": "Entity"
+  },
+  {
+    "id": "evil-eye",
+    "name": "Evil Eye"
+  },
+  {
+    "id": "evil-hero",
+    "name": "Evil HERO"
+  },
+  {
+    "id": "evil-twin",
+    "name": "Evil★Twin"
+  },
+  {
+    "id": "evol",
+    "name": "Evol"
+  },
+  {
+    "id": "evolsaur",
+    "name": "Evolsaur"
+  },
+  {
+    "id": "evoltile",
+    "name": "Evoltile"
+  },
+  {
+    "id": "evolution-pill",
+    "name": "Evolution Pill"
+  },
+  {
+    "id": "evolzar",
+    "name": "Evolzar"
+  },
+  {
+    "id": "exodd-obliterate",
+    "name": "Exodd|Obliterate!!!"
+  },
+  {
+    "id": "exodia",
+    "name": "Exodia"
+  },
+  {
+    "id": "exosister",
+    "name": "Exosister"
+  },
+  {
+    "id": "eyes-restrict",
+    "name": "Eyes Restrict"
+  },
+  {
+    "id": "f-a",
+    "name": "F.A."
+  },
+  {
+    "id": "fabled",
+    "name": "Fabled"
+  },
+  {
+    "id": "familiar-possessed",
+    "name": "Familiar-Possessed"
+  },
+  {
+    "id": "favorite",
+    "name": "Favorite"
+  },
+  {
+    "id": "fiendsmith",
+    "name": "Fiendsmith"
+  },
+  {
+    "id": "fire-fist",
+    "name": "Fire Fist"
+  },
+  {
+    "id": "fire-formation",
+    "name": "Fire Formation"
+  },
+  {
+    "id": "fire-king",
+    "name": "Fire King"
+  },
+  {
+    "id": "fire-king-avatar",
+    "name": "Fire King Avatar"
+  },
+  {
+    "id": "firewall",
+    "name": "Firewall"
+  },
+  {
+    "id": "fishborg",
+    "name": "Fishborg"
+  },
+  {
+    "id": "flamvell",
+    "name": "Flamvell"
+  },
+  {
+    "id": "floowandereeze",
+    "name": "Floowandereeze"
+  },
+  {
+    "id": "flower-cardian",
+    "name": "Flower Cardian"
+  },
+  {
+    "id": "fluffal",
+    "name": "Fluffal"
+  },
+  {
+    "id": "forbidden",
+    "name": "Forbidden"
+  },
+  {
+    "id": "forbidden-one",
+    "name": "Forbidden One"
+  },
+  {
+    "id": "fortune-fairy",
+    "name": "Fortune Fairy"
+  },
+  {
+    "id": "fortune-lady",
+    "name": "Fortune Lady"
+  },
+  {
+    "id": "fossil",
+    "name": "Fossil"
+  },
+  {
+    "id": "frightfur",
+    "name": "Frightfur"
+  },
+  {
+    "id": "frog",
+    "name": "Frog"
+  },
+  {
+    "id": "fur-hire",
+    "name": "Fur Hire"
+  },
+  {
+    "id": "fusion-dragon",
+    "name": "Fusion Dragon"
+  },
+  {
+    "id": "g-golem",
+    "name": "G Golem"
+  },
+  {
+    "id": "gadget",
+    "name": "Gadget"
+  },
+  {
+    "id": "gagaga",
+    "name": "Gagaga"
+  },
+  {
+    "id": "gaia-the-fierce-knight",
+    "name": "Gaia The Fierce Knight"
+  },
+  {
+    "id": "galaxy",
+    "name": "Galaxy"
+  },
+  {
+    "id": "galaxy-eyes",
+    "name": "Galaxy-Eyes"
+  },
+  {
+    "id": "galaxy-eyes-tachyon-dragon",
+    "name": "Galaxy-Eyes Tachyon Dragon"
+  },
+  {
+    "id": "gandora",
+    "name": "Gandora"
+  },
+  {
+    "id": "gate-guardian",
+    "name": "Gate Guardian"
+  },
+  {
+    "id": "geargia",
+    "name": "Geargia"
+  },
+  {
+    "id": "geargiano",
+    "name": "Geargiano"
+  },
+  {
+    "id": "gem",
+    "name": "Gem-"
+  },
+  {
+    "id": "gem-knight",
+    "name": "Gem-Knight"
+  },
+  {
+    "id": "generaider",
+    "name": "Generaider"
+  },
+  {
+    "id": "genex",
+    "name": "Genex"
+  },
+  {
+    "id": "genex-ally",
+    "name": "Genex Ally"
+  },
+  {
+    "id": "ghostrick",
+    "name": "Ghostrick"
+  },
+  {
+    "id": "ghoti",
+    "name": "Ghoti"
+  },
+  {
+    "id": "gimmick-puppet",
+    "name": "Gimmick Puppet"
+  },
+  {
+    "id": "gishki",
+    "name": "Gishki"
+  },
+  {
+    "id": "gladiator",
+    "name": "Gladiator"
+  },
+  {
+    "id": "gladiator-beast",
+    "name": "Gladiator Beast"
+  },
+  {
+    "id": "goblin",
+    "name": "Goblin"
+  },
+  {
+    "id": "goblin-biker",
+    "name": "Goblin Biker"
+  },
+  {
+    "id": "gogogo",
+    "name": "Gogogo"
+  },
+  {
+    "id": "gold-pride",
+    "name": "Gold Pride"
+  },
+  {
+    "id": "golden-land",
+    "name": "Golden Land"
+  },
+  {
+    "id": "gottoms",
+    "name": "Gottoms"
+  },
+  {
+    "id": "gouki",
+    "name": "Gouki"
+  },
+  {
+    "id": "gransolfachord",
+    "name": "GranSolfachord"
+  },
+  {
+    "id": "gravekeeper-s",
+    "name": "Gravekeeper's"
+  },
+  {
+    "id": "graydle",
+    "name": "Graydle"
+  },
+  {
+    "id": "guardian",
+    "name": "Guardian"
+  },
+  {
+    "id": "gunkan",
+    "name": "Gunkan"
+  },
+  {
+    "id": "gusto",
+    "name": "Gusto"
+  },
+  {
+    "id": "harpie",
+    "name": "Harpie"
+  },
+  {
+    "id": "hazy",
+    "name": "Hazy"
+  },
+  {
+    "id": "hazy-flame",
+    "name": "Hazy Flame"
+  },
+  {
+    "id": "heart",
+    "name": "Heart"
+  },
+  {
+    "id": "heraldic-beast",
+    "name": "Heraldic Beast"
+  },
+  {
+    "id": "heraldry",
+    "name": "Heraldry"
+  },
+  {
+    "id": "hero",
+    "name": "HERO"
+  },
+  {
+    "id": "heroic",
+    "name": "Heroic"
+  },
+  {
+    "id": "heroic-challenger",
+    "name": "Heroic Challenger"
+  },
+  {
+    "id": "heroic-champion",
+    "name": "Heroic Champion"
+  },
+  {
+    "id": "hieratic",
+    "name": "Hieratic"
+  },
+  {
+    "id": "hole",
+    "name": "Hole"
+  },
+  {
+    "id": "horus",
+    "name": "Horus"
+  },
+  {
+    "id": "horus-the-black-flame-dragon",
+    "name": "Horus the Black Flame Dragon"
+  },
+  {
+    "id": "hydradrive",
+    "name": "Hydradrive"
+  },
+  {
+    "id": "hyperion",
+    "name": "Hyperion"
+  },
+  {
+    "id": "ice-barrier",
+    "name": "Ice Barrier"
+  },
+  {
+    "id": "icejade",
+    "name": "Icejade"
+  },
+  {
+    "id": "igknight",
+    "name": "Igknight"
+  },
+  {
+    "id": "impcantation",
+    "name": "Impcantation"
+  },
+  {
+    "id": "infernity",
+    "name": "Infernity"
+  },
+  {
+    "id": "infernoble",
+    "name": "Infernoble"
+  },
+  {
+    "id": "infernoble-arms",
+    "name": "Infernoble Arms"
+  },
+  {
+    "id": "infernoble-knight",
+    "name": "Infernoble Knight"
+  },
+  {
+    "id": "infernoid",
+    "name": "Infernoid"
+  },
+  {
+    "id": "infestation",
+    "name": "Infestation"
+  },
+  {
+    "id": "infinitrack",
+    "name": "Infinitrack"
+  },
+  {
+    "id": "inmato",
+    "name": "Inmato"
+  },
+  {
+    "id": "invoked",
+    "name": "Invoked"
+  },
+  {
+    "id": "inzektor",
+    "name": "Inzektor"
+  },
+  {
+    "id": "iron-chain",
+    "name": "Iron Chain"
+  },
+  {
+    "id": "jinzo",
+    "name": "Jinzo"
+  },
+  {
+    "id": "junk",
+    "name": "Junk"
+  },
+  {
+    "id": "jurrac",
+    "name": "Jurrac"
+  },
+  {
+    "id": "k9",
+    "name": "K9"
+  },
+  {
+    "id": "kaiju",
+    "name": "Kaiju"
+  },
+  {
+    "id": "kairyu-shin",
+    "name": "Kairyu-Shin"
+  },
+  {
+    "id": "karakuri",
+    "name": "Karakuri"
+  },
+  {
+    "id": "kashtira",
+    "name": "Kashtira"
+  },
+  {
+    "id": "ki-sikil",
+    "name": "Ki-sikil"
+  },
+  {
+    "id": "knightmare",
+    "name": "Knightmare"
+  },
+  {
+    "id": "koa-ki-meiru",
+    "name": "Koa'ki Meiru"
+  },
+  {
+    "id": "koala",
+    "name": "Koala"
+  },
+  {
+    "id": "kozmo",
+    "name": "Kozmo"
+  },
+  {
+    "id": "krawler",
+    "name": "Krawler"
+  },
+  {
+    "id": "kuriboh",
+    "name": "Kuriboh"
+  },
+  {
+    "id": "labrynth",
+    "name": "Labrynth"
+  },
+  {
+    "id": "labyrinth-wall",
+    "name": "Labyrinth Wall"
+  },
+  {
+    "id": "lady-of-lament",
+    "name": "Lady of Lament"
+  },
+  {
+    "id": "laundsallyn",
+    "name": "Laundsallyn"
+  },
+  {
+    "id": "laval",
+    "name": "Laval"
+  },
+  {
+    "id": "legendary-dragon",
+    "name": "Legendary Dragon"
+  },
+  {
+    "id": "legendary-knight",
+    "name": "Legendary Knight"
+  },
+  {
+    "id": "libromancer",
+    "name": "Libromancer"
+  },
+  {
+    "id": "lightsworn",
+    "name": "Lightsworn"
+  },
+  {
+    "id": "lil-la",
+    "name": "Lil-la"
+  },
+  {
+    "id": "live-twin",
+    "name": "Live☆Twin"
+  },
+  {
+    "id": "lswarm",
+    "name": "lswarm"
+  },
+  {
+    "id": "lunalight",
+    "name": "Lunalight"
+  },
+  {
+    "id": "lv",
+    "name": "LV"
+  },
+  {
+    "id": "lyrilusc",
+    "name": "Lyrilusc"
+  },
+  {
+    "id": "machina",
+    "name": "Machina"
+  },
+  {
+    "id": "machine-angel",
+    "name": "Machine Angel"
+  },
+  {
+    "id": "madolche",
+    "name": "Madolche"
+  },
+  {
+    "id": "magical-musket",
+    "name": "Magical Musket"
+  },
+  {
+    "id": "magician",
+    "name": "Magician"
+  },
+  {
+    "id": "magician-girl",
+    "name": "Magician Girl"
+  },
+  {
+    "id": "magikey",
+    "name": "Magikey"
+  },
+  {
+    "id": "magistus",
+    "name": "Magistus"
+  },
+  {
+    "id": "magna-warrior",
+    "name": "Magna Warrior"
+  },
+  {
+    "id": "magnet-warrior",
+    "name": "Magnet Warrior"
+  },
+  {
+    "id": "majespecter",
+    "name": "Majespecter"
+  },
+  {
+    "id": "majestic",
+    "name": "Majestic"
+  },
+  {
+    "id": "malefic",
+    "name": "Malefic"
+  },
+  {
+    "id": "malicevorous",
+    "name": "Malicevorous"
+  },
+  {
+    "id": "maliss",
+    "name": "Maliss"
+  },
+  {
+    "id": "mannadium",
+    "name": "Mannadium"
+  },
+  {
+    "id": "marincess",
+    "name": "Marincess"
+  },
+  {
+    "id": "masked-hero",
+    "name": "Masked HERO"
+  },
+  {
+    "id": "materiactor",
+    "name": "Materiactor"
+  },
+  {
+    "id": "mathmech",
+    "name": "Mathmech"
+  },
+  {
+    "id": "mayakashi",
+    "name": "Mayakashi"
+  },
+  {
+    "id": "mecha-phantom-beast",
+    "name": "Mecha Phantom Beast"
+  },
+  {
+    "id": "megalith",
+    "name": "Megalith"
+  },
+  {
+    "id": "mekk-knight",
+    "name": "Mekk-Knight"
+  },
+  {
+    "id": "meklord",
+    "name": "Meklord"
+  },
+  {
+    "id": "meklord-army",
+    "name": "Meklord Army"
+  },
+  {
+    "id": "meklord-astro",
+    "name": "Meklord Astro"
+  },
+  {
+    "id": "meklord-emperor",
+    "name": "Meklord Emperor"
+  },
+  {
+    "id": "melffy",
+    "name": "Melffy"
+  },
+  {
+    "id": "melodious",
+    "name": "Melodious"
+  },
+  {
+    "id": "melodious-maestra",
+    "name": "Melodious Maestra"
+  },
+  {
+    "id": "memento",
+    "name": "Memento"
+  },
+  {
+    "id": "mermail",
+    "name": "Mermail"
+  },
+  {
+    "id": "metalfoes",
+    "name": "Metalfoes"
+  },
+  {
+    "id": "metalmorph",
+    "name": "Metalmorph"
+  },
+  {
+    "id": "metaphys",
+    "name": "Metaphys"
+  },
+  {
+    "id": "mikanko",
+    "name": "Mikanko"
+  },
+  {
+    "id": "millennium",
+    "name": "Millennium"
+  },
+  {
+    "id": "mimighoul",
+    "name": "Mimighoul"
+  },
+  {
+    "id": "mist-valley",
+    "name": "Mist Valley"
+  },
+  {
+    "id": "mitsurugi",
+    "name": "Mitsurugi"
+  },
+  {
+    "id": "mokey-mokey",
+    "name": "Mokey Mokey"
+  },
+  {
+    "id": "monarch",
+    "name": "Monarch"
+  },
+  {
+    "id": "morganite",
+    "name": "Morganite"
+  },
+  {
+    "id": "morphtronic",
+    "name": "Morphtronic"
+  },
+  {
+    "id": "mulcharmy",
+    "name": "Mulcharmy"
+  },
+  {
+    "id": "mystic-swordsman",
+    "name": "Mystic Swordsman"
+  },
+  {
+    "id": "mystical-beast-of-the-forest",
+    "name": "Mystical Beast of the Forest"
+  },
+  {
+    "id": "mystical-spirit-of-the-forest",
+    "name": "Mystical Spirit of the Forest"
+  },
+  {
+    "id": "mythical-beast",
+    "name": "Mythical Beast"
+  },
+  {
+    "id": "myutant",
+    "name": "Myutant"
+  },
+  {
+    "id": "naturia",
+    "name": "Naturia"
+  },
+  {
+    "id": "necrovalley",
+    "name": "Necrovalley"
+  },
+  {
+    "id": "nekroz",
+    "name": "Nekroz"
+  },
+  {
+    "id": "nemeses",
+    "name": "Nemeses"
+  },
+  {
+    "id": "nemleria",
+    "name": "Nemleria"
+  },
+  {
+    "id": "neo-spacian",
+    "name": "Neo-Spacian"
+  },
+  {
+    "id": "neos",
+    "name": "Neos"
+  },
+  {
+    "id": "nephthys",
+    "name": "Nephthys"
+  },
+  {
+    "id": "nimble",
+    "name": "Nimble"
+  },
+  {
+    "id": "ninja",
+    "name": "Ninja"
+  },
+  {
+    "id": "ninjitsu-art",
+    "name": "Ninjitsu Art"
+  },
+  {
+    "id": "nitro",
+    "name": "Nitro"
+  },
+  {
+    "id": "noble",
+    "name": "Noble"
+  },
+  {
+    "id": "noble-arms",
+    "name": "Noble Arms"
+  },
+  {
+    "id": "noble-knight",
+    "name": "Noble Knight"
+  },
+  {
+    "id": "nordic",
+    "name": "Nordic"
+  },
+  {
+    "id": "nordic-alfar",
+    "name": "Nordic Alfar"
+  },
+  {
+    "id": "nordic-ascendant",
+    "name": "Nordic Ascendant"
+  },
+  {
+    "id": "nordic-beast",
+    "name": "Nordic Beast"
+  },
+  {
+    "id": "nordic-relic",
+    "name": "Nordic Relic"
+  },
+  {
+    "id": "nouvelles",
+    "name": "Nouvelles"
+  },
+  {
+    "id": "number",
+    "name": "Number"
+  },
+  {
+    "id": "number-c",
+    "name": "Number C"
+  },
+  {
+    "id": "number-c39",
+    "name": "Number C39"
+  },
+  {
+    "id": "number-s",
+    "name": "Number S"
+  },
+  {
+    "id": "numeron",
+    "name": "Numeron"
+  },
+  {
+    "id": "numeron-gate",
+    "name": "Numeron Gate"
+  },
+  {
+    "id": "numerounius",
+    "name": "Numerounius"
+  },
+  {
+    "id": "odd-eyes",
+    "name": "Odd-Eyes"
+  },
+  {
+    "id": "of-the-forest",
+    "name": "of the Forest"
+  },
+  {
+    "id": "ogdoadic",
+    "name": "Ogdoadic"
+  },
+  {
+    "id": "ojama",
+    "name": "Ojama"
+  },
+  {
+    "id": "old-entity",
+    "name": "Old Entity"
+  },
+  {
+    "id": "onomat",
+    "name": "Onomat"
+  },
+  {
+    "id": "orcust",
+    "name": "Orcust"
+  },
+  {
+    "id": "outer-entity",
+    "name": "Outer Entity"
+  },
+  {
+    "id": "p-u-n-k",
+    "name": "P.U.N.K."
+  },
+  {
+    "id": "paleozoic",
+    "name": "Paleozoic"
+  },
+  {
+    "id": "palladium",
+    "name": "Palladium"
+  },
+  {
+    "id": "parshath",
+    "name": "Parshath"
+  },
+  {
+    "id": "patissciel",
+    "name": "Patissciel"
+  },
+  {
+    "id": "pendulum",
+    "name": "Pendulum"
+  },
+  {
+    "id": "pendulum-dragon",
+    "name": "Pendulum Dragon"
+  },
+  {
+    "id": "pendulumgraph",
+    "name": "Pendulumgraph"
+  },
+  {
+    "id": "penguin",
+    "name": "Penguin"
+  },
+  {
+    "id": "performage",
+    "name": "Performage"
+  },
+  {
+    "id": "performapal",
+    "name": "Performapal"
+  },
+  {
+    "id": "phantasm",
+    "name": "Phantasm"
+  },
+  {
+    "id": "phantasm-spiral",
+    "name": "Phantasm Spiral"
+  },
+  {
+    "id": "phantom-beast",
+    "name": "Phantom Beast"
+  },
+  {
+    "id": "phantom-knights",
+    "name": "Phantom Knights"
+  },
+  {
+    "id": "photon",
+    "name": "Photon"
+  },
+  {
+    "id": "plunder-patroll",
+    "name": "Plunder Patroll"
+  },
+  {
+    "id": "polymerization-fusion",
+    "name": "Polymerization|Fusion"
+  },
+  {
+    "id": "possessed",
+    "name": "Possessed"
+  },
+  {
+    "id": "potan",
+    "name": "Potan"
+  },
+  {
+    "id": "power-tool",
+    "name": "Power Tool"
+  },
+  {
+    "id": "prank-kids",
+    "name": "Prank-Kids"
+  },
+  {
+    "id": "predap",
+    "name": "Predap"
+  },
+  {
+    "id": "predaplant",
+    "name": "Predaplant"
+  },
+  {
+    "id": "prediction-princess",
+    "name": "Prediction Princess"
+  },
+  {
+    "id": "primite",
+    "name": "Primite"
+  },
+  {
+    "id": "prophecy",
+    "name": "Prophecy"
+  },
+  {
+    "id": "psy-frame",
+    "name": "PSY-Frame"
+  },
+  {
+    "id": "psy-framegear",
+    "name": "PSY-Framegear"
+  },
+  {
+    "id": "puppet",
+    "name": "Puppet"
+  },
+  {
+    "id": "purrely",
+    "name": "Purrely"
+  },
+  {
+    "id": "qli",
+    "name": "Qli"
+  },
+  {
+    "id": "r-genex",
+    "name": "R-Genex"
+  },
+  {
+    "id": "ragnaraika",
+    "name": "Ragnaraika"
+  },
+  {
+    "id": "raidraptor",
+    "name": "Raidraptor"
+  },
+  {
+    "id": "rainbow-bridge",
+    "name": "Rainbow Bridge"
+  },
+  {
+    "id": "rank-down-magic",
+    "name": "Rank-Down-Magic"
+  },
+  {
+    "id": "rank-up-magic",
+    "name": "Rank-Up-Magic"
+  },
+  {
+    "id": "reactor",
+    "name": "Reactor"
+  },
+  {
+    "id": "rebellion",
+    "name": "Rebellion"
+  },
+  {
+    "id": "recipe",
+    "name": "Recipe"
+  },
+  {
+    "id": "red-dragon-archfiend",
+    "name": "Red Dragon Archfiend"
+  },
+  {
+    "id": "red-eyes",
+    "name": "Red-Eyes"
+  },
+  {
+    "id": "regenesis",
+    "name": "Regenesis"
+  },
+  {
+    "id": "relinquished",
+    "name": "Relinquished"
+  },
+  {
+    "id": "reptilianne",
+    "name": "Reptilianne"
+  },
+  {
+    "id": "rescue-ace",
+    "name": "Rescue-ACE"
+  },
+  {
+    "id": "resonator",
+    "name": "Resonator"
+  },
+  {
+    "id": "rikka",
+    "name": "Rikka"
+  },
+  {
+    "id": "ritual-beast",
+    "name": "Ritual Beast"
+  },
+  {
+    "id": "ritual-beast-tamer",
+    "name": "Ritual Beast Tamer"
+  },
+  {
+    "id": "ritual-beast-ulti",
+    "name": "Ritual Beast Ulti-"
+  },
+  {
+    "id": "roid",
+    "name": "roid"
+  },
+  {
+    "id": "rokket",
+    "name": "Rokket"
+  },
+  {
+    "id": "roland",
+    "name": "Roland"
+  },
+  {
+    "id": "rose",
+    "name": "Rose"
+  },
+  {
+    "id": "rose-dragon",
+    "name": "Rose Dragon"
+  },
+  {
+    "id": "runick",
+    "name": "Runick"
+  },
+  {
+    "id": "ryu-ge",
+    "name": "Ryu-Ge"
+  },
+  {
+    "id": "ryzeal",
+    "name": "Ryzeal"
+  },
+  {
+    "id": "s-force",
+    "name": "S-Force"
+  },
+  {
+    "id": "saber",
+    "name": "Saber"
+  },
+  {
+    "id": "salamandra",
+    "name": "Salamandra"
+  },
+  {
+    "id": "salamangreat",
+    "name": "Salamangreat"
+  },
+  {
+    "id": "sangen",
+    "name": "Sangen"
+  },
+  {
+    "id": "scareclaw",
+    "name": "Scareclaw"
+  },
+  {
+    "id": "schoolwork",
+    "name": "Schoolwork"
+  },
+  {
+    "id": "scrap",
+    "name": "Scrap"
+  },
+  {
+    "id": "sea-stealth",
+    "name": "Sea Stealth"
+  },
+  {
+    "id": "secret-six-samurai",
+    "name": "Secret Six Samurai"
+  },
+  {
+    "id": "serket",
+    "name": "Serket"
+  },
+  {
+    "id": "seventh",
+    "name": "Seventh"
+  },
+  {
+    "id": "shaddoll",
+    "name": "Shaddoll"
+  },
+  {
+    "id": "shark",
+    "name": "Shark"
+  },
+  {
+    "id": "shark-drake",
+    "name": "Shark Drake"
+  },
+  {
+    "id": "shien",
+    "name": "Shien"
+  },
+  {
+    "id": "shiranui",
+    "name": "Shiranui"
+  },
+  {
+    "id": "shiranui-spectralsword",
+    "name": "Shiranui Spectralsword"
+  },
+  {
+    "id": "silent-magician",
+    "name": "Silent Magician"
+  },
+  {
+    "id": "silent-swordsman",
+    "name": "Silent Swordsman"
+  },
+  {
+    "id": "simorgh",
+    "name": "Simorgh"
+  },
+  {
+    "id": "sinful-spoils",
+    "name": "Sinful Spoils"
+  },
+  {
+    "id": "six-samurai",
+    "name": "Six Samurai"
+  },
+  {
+    "id": "six-strike",
+    "name": "Six Strike"
+  },
+  {
+    "id": "skull-guardian",
+    "name": "Skull Guardian"
+  },
+  {
+    "id": "sky-striker",
+    "name": "Sky Striker"
+  },
+  {
+    "id": "sky-striker-ace",
+    "name": "Sky Striker Ace"
+  },
+  {
+    "id": "skyblaster",
+    "name": "Skyblaster"
+  },
+  {
+    "id": "skyscraper",
+    "name": "Skyscraper"
+  },
+  {
+    "id": "smile",
+    "name": "Smile"
+  },
+  {
+    "id": "snake-eye",
+    "name": "Snake-Eye"
+  },
+  {
+    "id": "solfachord",
+    "name": "Solfachord"
+  },
+  {
+    "id": "speedroid",
+    "name": "Speedroid"
+  },
+  {
+    "id": "spellbook",
+    "name": "Spellbook"
+  },
+  {
+    "id": "sphinx",
+    "name": "Sphinx"
+  },
+  {
+    "id": "spirit-message",
+    "name": "Spirit Message"
+  },
+  {
+    "id": "spiritual-art",
+    "name": "Spiritual Art"
+  },
+  {
+    "id": "spiritual-beast",
+    "name": "Spiritual Beast"
+  },
+  {
+    "id": "spiritual-beast-tamer",
+    "name": "Spiritual Beast Tamer"
+  },
+  {
+    "id": "spiritual-earth-art",
+    "name": "Spiritual Earth Art"
+  },
+  {
+    "id": "spiritual-fire-art",
+    "name": "Spiritual Fire Art"
+  },
+  {
+    "id": "spiritual-water-art",
+    "name": "Spiritual Water Art"
+  },
+  {
+    "id": "spiritual-wind-art",
+    "name": "Spiritual Wind Art"
+  },
+  {
+    "id": "spright",
+    "name": "Spright"
+  },
+  {
+    "id": "springans",
+    "name": "Springans"
+  },
+  {
+    "id": "sprout",
+    "name": "sprout"
+  },
+  {
+    "id": "spyral",
+    "name": "SPYRAL"
+  },
+  {
+    "id": "spyral-gear",
+    "name": "SPYRAL GEAR"
+  },
+  {
+    "id": "spyral-mission",
+    "name": "SPYRAL MISSION"
+  },
+  {
+    "id": "star-seraph",
+    "name": "Star Seraph"
+  },
+  {
+    "id": "stardust",
+    "name": "Stardust"
+  },
+  {
+    "id": "starry-knight",
+    "name": "Starry Knight"
+  },
+  {
+    "id": "starving-venom",
+    "name": "Starving Venom"
+  },
+  {
+    "id": "stealth-kragen",
+    "name": "Stealth Kragen"
+  },
+  {
+    "id": "steelswarm",
+    "name": "Steelswarm"
+  },
+  {
+    "id": "stellarknight",
+    "name": "Stellarknight"
+  },
+  {
+    "id": "subterror",
+    "name": "Subterror"
+  },
+  {
+    "id": "subterror-behemoth",
+    "name": "Subterror Behemoth"
+  },
+  {
+    "id": "sun",
+    "name": "Sun"
+  },
+  {
+    "id": "sunavalon",
+    "name": "Sunavalon"
+  },
+  {
+    "id": "sunseed",
+    "name": "Sunseed"
+  },
+  {
+    "id": "sunvine",
+    "name": "Sunvine"
+  },
+  {
+    "id": "super-defense-robot",
+    "name": "Super Defense Robot"
+  },
+  {
+    "id": "super-quant",
+    "name": "Super Quant"
+  },
+  {
+    "id": "super-quantal-mech-beast",
+    "name": "Super Quantal Mech Beast"
+  },
+  {
+    "id": "super-quantum",
+    "name": "Super Quantum"
+  },
+  {
+    "id": "superheavy-samurai",
+    "name": "Superheavy Samurai"
+  },
+  {
+    "id": "superheavy-samurai-soul",
+    "name": "Superheavy Samurai Soul"
+  },
+  {
+    "id": "supreme-king",
+    "name": "Supreme King"
+  },
+  {
+    "id": "supreme-king-dragon",
+    "name": "Supreme King Dragon"
+  },
+  {
+    "id": "supreme-king-gate",
+    "name": "Supreme King Gate"
+  },
+  {
+    "id": "swordsoul",
+    "name": "Swordsoul"
+  },
+  {
+    "id": "sylvan",
+    "name": "Sylvan"
+  },
+  {
+    "id": "symphonic-warrior",
+    "name": "Symphonic Warrior"
+  },
+  {
+    "id": "synchro",
+    "name": "Synchro"
+  },
+  {
+    "id": "synchro-dragon",
+    "name": "Synchro Dragon"
+  },
+  {
+    "id": "synchron",
+    "name": "Synchron"
+  },
+  {
+    "id": "t-g",
+    "name": "T.G."
+  },
+  {
+    "id": "tachyon",
+    "name": "Tachyon"
+  },
+  {
+    "id": "tearlaments",
+    "name": "Tearlaments"
+  },
+  {
+    "id": "tellarknight",
+    "name": "tellarknight"
+  },
+  {
+    "id": "tenpai-dragon",
+    "name": "Tenpai Dragon"
+  },
+  {
+    "id": "tenyi",
+    "name": "Tenyi"
+  },
+  {
+    "id": "the-agent",
+    "name": "The Agent"
+  },
+  {
+    "id": "the-phantom-knights",
+    "name": "The Phantom Knights"
+  },
+  {
+    "id": "the-weather",
+    "name": "The Weather"
+  },
+  {
+    "id": "therion",
+    "name": "Therion"
+  },
+  {
+    "id": "thunder-dragon",
+    "name": "Thunder Dragon"
+  },
+  {
+    "id": "time-thief",
+    "name": "Time Thief"
+  },
+  {
+    "id": "timelord",
+    "name": "Timelord"
+  },
+  {
+    "id": "tindangle",
+    "name": "Tindangle"
+  },
+  {
+    "id": "tistina",
+    "name": "Tistina"
+  },
+  {
+    "id": "toon",
+    "name": "Toon"
+  },
+  {
+    "id": "topologic",
+    "name": "Topologic"
+  },
+  {
+    "id": "toy",
+    "name": "Toy"
+  },
+  {
+    "id": "trap-hole",
+    "name": "Trap Hole"
+  },
+  {
+    "id": "traptrix",
+    "name": "Traptrix"
+  },
+  {
+    "id": "tri-brigade",
+    "name": "Tri-Brigade"
+  },
+  {
+    "id": "triamid",
+    "name": "Triamid"
+  },
+  {
+    "id": "trickstar",
+    "name": "Trickstar"
+  },
+  {
+    "id": "true-draco-true-king",
+    "name": "True Draco|True King"
+  },
+  {
+    "id": "u-a",
+    "name": "U.A."
+  },
+  {
+    "id": "ultimate-crystal",
+    "name": "Ultimate Crystal"
+  },
+  {
+    "id": "ultimate-insect",
+    "name": "Ultimate Insect"
+  },
+  {
+    "id": "umbral-horror",
+    "name": "Umbral Horror"
+  },
+  {
+    "id": "unchained",
+    "name": "Unchained"
+  },
+  {
+    "id": "unchained-soul",
+    "name": "Unchained Soul"
+  },
+  {
+    "id": "ursarctic",
+    "name": "Ursarctic"
+  },
+  {
+    "id": "utopia",
+    "name": "Utopia"
+  },
+  {
+    "id": "utopic",
+    "name": "Utopic"
+  },
+  {
+    "id": "utopic-future",
+    "name": "Utopic Future"
+  },
+  {
+    "id": "vaalmonica",
+    "name": "Vaalmonica"
+  },
+  {
+    "id": "valkyrie",
+    "name": "Valkyrie"
+  },
+  {
+    "id": "vampire",
+    "name": "Vampire"
+  },
+  {
+    "id": "vanquish-soul",
+    "name": "Vanquish Soul"
+  },
+  {
+    "id": "vaylantz",
+    "name": "Vaylantz"
+  },
+  {
+    "id": "veda",
+    "name": "Veda"
+  },
+  {
+    "id": "vehicroid",
+    "name": "Vehicroid"
+  },
+  {
+    "id": "vendread",
+    "name": "Vendread"
+  },
+  {
+    "id": "venom",
+    "name": "Venom"
+  },
+  {
+    "id": "vernusylph",
+    "name": "Vernusylph"
+  },
+  {
+    "id": "virtual-world",
+    "name": "Virtual World"
+  },
+  {
+    "id": "virtual-world-gate",
+    "name": "Virtual World Gate"
+  },
+  {
+    "id": "visas",
+    "name": "Visas"
+  },
+  {
+    "id": "vision-hero",
+    "name": "Vision HERO"
+  },
+  {
+    "id": "voiceless-voice",
+    "name": "Voiceless Voice"
+  },
+  {
+    "id": "void",
+    "name": "Void"
+  },
+  {
+    "id": "volcanic",
+    "name": "Volcanic"
+  },
+  {
+    "id": "vylon",
+    "name": "Vylon"
+  },
+  {
+    "id": "war-rock",
+    "name": "War Rock"
+  },
+  {
+    "id": "warrior",
+    "name": "Warrior"
+  },
+  {
+    "id": "watt",
+    "name": "Watt"
+  },
+  {
+    "id": "wedju",
+    "name": "Wedju"
+  },
+  {
+    "id": "welcome-labrynth",
+    "name": "Welcome Labrynth"
+  },
+  {
+    "id": "white",
+    "name": "White"
+  },
+  {
+    "id": "white-aura",
+    "name": "White Aura"
+  },
+  {
+    "id": "white-forest",
+    "name": "White Forest"
+  },
+  {
+    "id": "wind-up",
+    "name": "Wind-Up"
+  },
+  {
+    "id": "windwitch",
+    "name": "Windwitch"
+  },
+  {
+    "id": "winged-kuriboh",
+    "name": "Winged Kuriboh"
+  },
+  {
+    "id": "wingman",
+    "name": "Wingman"
+  },
+  {
+    "id": "witchcrafter",
+    "name": "Witchcrafter"
+  },
+  {
+    "id": "world-chalice",
+    "name": "World Chalice"
+  },
+  {
+    "id": "world-legacy",
+    "name": "World Legacy"
+  },
+  {
+    "id": "worm",
+    "name": "Worm"
+  },
+  {
+    "id": "x-saber",
+    "name": "X-Saber"
+  },
+  {
+    "id": "xx-saber",
+    "name": "XX-Saber"
+  },
+  {
+    "id": "xyz",
+    "name": "Xyz"
+  },
+  {
+    "id": "xyz-dragon",
+    "name": "Xyz Dragon"
+  },
+  {
+    "id": "yang-zing",
+    "name": "Yang Zing"
+  },
+  {
+    "id": "yosenju",
+    "name": "Yosenju"
+  },
+  {
+    "id": "yubel",
+    "name": "Yubel"
+  },
+  {
+    "id": "yummy",
+    "name": "Yummy"
+  },
+  {
+    "id": "zefra",
+    "name": "Zefra"
+  },
+  {
+    "id": "zexal",
+    "name": "Zexal"
+  },
+  {
+    "id": "zoodiac",
+    "name": "Zoodiac"
+  },
+  {
+    "id": "zs",
+    "name": "ZS -"
+  },
+  {
+    "id": "zubaba",
+    "name": "Zubaba"
+  },
+  {
+    "id": "zw",
+    "name": "ZW -"
+  }
 ]

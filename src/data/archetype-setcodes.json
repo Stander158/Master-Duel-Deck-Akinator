@@ -1,0 +1,3667 @@
+{
+  "ignister": {
+    "setcodes": [
+      309
+    ],
+    "cards": 23
+  },
+  "assault-mode": {
+    "setcodes": [
+      4175
+    ],
+    "cards": 11,
+    "parent": "dark-lucius"
+  },
+  "a-i": {
+    "setcodes": [
+      310
+    ],
+    "cards": 15
+  },
+  "abyss": {
+    "setcodes": [
+      236
+    ],
+    "cards": 27
+  },
+  "abyss-actor": {
+    "setcodes": [
+      4332
+    ],
+    "cards": 18,
+    "parent": "abyss"
+  },
+  "abyss-script": {
+    "setcodes": [
+      8428
+    ],
+    "cards": 7,
+    "parent": "abyss"
+  },
+  "abyss-2": {
+    "setcodes": [
+      117
+    ],
+    "cards": 44
+  },
+  "adamancipator": {
+    "setcodes": [
+      320
+    ],
+    "cards": 14
+  },
+  "advanced-crystal-beast": {
+    "setcodes": [
+      20532
+    ],
+    "cards": 7,
+    "parent": "crystal"
+  },
+  "aesir": {
+    "setcodes": [
+      75
+    ],
+    "cards": 3
+  },
+  "aether": {
+    "setcodes": [
+      203
+    ],
+    "cards": 2
+  },
+  "alien": {
+    "setcodes": [
+      12
+    ],
+    "cards": 19
+  },
+  "allure-queen": {
+    "setcodes": [
+      20
+    ],
+    "cards": 5
+  },
+  "ally-of-justice": {
+    "setcodes": [
+      1
+    ],
+    "cards": 21
+  },
+  "altergeist": {
+    "setcodes": [
+      259
+    ],
+    "cards": 24
+  },
+  "amazement": {
+    "setcodes": [
+      350
+    ],
+    "cards": 8
+  },
+  "amazoness": {
+    "setcodes": [
+      4
+    ],
+    "cards": 34
+  },
+  "amorphage": {
+    "setcodes": [
+      224
+    ],
+    "cards": 10
+  },
+  "ancient-gear": {
+    "setcodes": [
+      7
+    ],
+    "cards": 41
+  },
+  "ancient-warriors": {
+    "setcodes": [
+      311
+    ],
+    "cards": 20
+  },
+  "apophis": {
+    "setcodes": [
+      450
+    ],
+    "cards": 4
+  },
+  "apoqliphort": {
+    "setcodes": [
+      4266
+    ],
+    "cards": 2,
+    "parent": "qli"
+  },
+  "appliancer": {
+    "setcodes": [
+      330,
+      1402
+    ],
+    "cards": 13
+  },
+  "aqua": {
+    "setcodes": [
+      205
+    ],
+    "cards": 17
+  },
+  "aqua-jet": {
+    "setcodes": [
+      443
+    ],
+    "cards": 2
+  },
+  "aquaactress": {
+    "setcodes": [
+      4301
+    ],
+    "cards": 3,
+    "parent": "aqua"
+  },
+  "aquamirror": {
+    "setcodes": [
+      399
+    ],
+    "cards": 6
+  },
+  "aquarium": {
+    "setcodes": [
+      8397
+    ],
+    "cards": 3,
+    "parent": "aqua"
+  },
+  "arcana-force": {
+    "setcodes": [
+      5
+    ],
+    "cards": 16
+  },
+  "archfiend": {
+    "setcodes": [
+      69
+    ],
+    "cards": 99
+  },
+  "argostars": {
+    "setcodes": [
+      442
+    ],
+    "cards": 8
+  },
+  "armed-dragon": {
+    "setcodes": [
+      273
+    ],
+    "cards": 22
+  },
+  "armored-xyz": {
+    "setcodes": [
+      16499
+    ],
+    "cards": 4,
+    "parent": "xyz"
+  },
+  "aroma": {
+    "setcodes": [
+      201
+    ],
+    "cards": 18
+  },
+  "artifact": {
+    "setcodes": [
+      151
+    ],
+    "cards": 17
+  },
+  "artorigus": {
+    "setcodes": [
+      167
+    ],
+    "cards": 3
+  },
+  "ashened": {
+    "setcodes": [
+      421
+    ],
+    "cards": 12
+  },
+  "assault-blackwing": {
+    "setcodes": [
+      4147
+    ],
+    "cards": 7,
+    "parent": "blackwing"
+  },
+  "atlantean": {
+    "setcodes": [
+      119
+    ],
+    "cards": 14
+  },
+  "attraction": {
+    "setcodes": [
+      351
+    ],
+    "cards": 7
+  },
+  "azamina": {
+    "setcodes": [
+      436
+    ],
+    "cards": 12
+  },
+  "b-e-s": {
+    "setcodes": [
+      21
+    ],
+    "cards": 9
+  },
+  "bamboo-sword": {
+    "setcodes": [
+      96
+    ],
+    "cards": 6
+  },
+  "barbaros": {
+    "setcodes": [
+      318
+    ],
+    "cards": 3
+  },
+  "barian": {
+    "setcodes": [
+      376,
+      1289
+    ],
+    "cards": 13
+  },
+  "barian-s": {
+    "setcodes": [
+      4472,
+      5385
+    ],
+    "cards": 4,
+    "parent": "barian"
+  },
+  "batteryman": {
+    "setcodes": [
+      40
+    ],
+    "cards": 10
+  },
+  "battleguard": {
+    "setcodes": [
+      8568,
+      9481
+    ],
+    "cards": 7,
+    "parent": "barian"
+  },
+  "battlewasp": {
+    "setcodes": [
+      303
+    ],
+    "cards": 14
+  },
+  "battlin-boxer": {
+    "setcodes": [
+      132
+    ],
+    "cards": 20
+  },
+  "battlin-boxing": {
+    "setcodes": [
+      513
+    ],
+    "cards": 3
+  },
+  "beast-s-battle": {
+    "setcodes": [
+      77
+    ],
+    "cards": 4
+  },
+  "beetrooper": {
+    "setcodes": [
+      370
+    ],
+    "cards": 15
+  },
+  "black-luster-soldier": {
+    "setcodes": [
+      4303
+    ],
+    "cards": 9,
+    "parent": "chaos"
+  },
+  "blackwing": {
+    "setcodes": [
+      51
+    ],
+    "cards": 63
+  },
+  "blaze-accelerator": {
+    "setcodes": [
+      185
+    ],
+    "cards": 5
+  },
+  "blue-tears": {
+    "setcodes": [
+      425
+    ],
+    "cards": 2
+  },
+  "blue-eyes": {
+    "setcodes": [
+      221
+    ],
+    "cards": 22
+  },
+  "bonding": {
+    "setcodes": [
+      256
+    ],
+    "cards": 4
+  },
+  "borrel": {
+    "setcodes": [
+      271
+    ],
+    "cards": 21
+  },
+  "bounzer": {
+    "setcodes": [
+      107
+    ],
+    "cards": 5
+  },
+  "branded": {
+    "setcodes": [
+      352
+    ],
+    "cards": 25
+  },
+  "bujin": {
+    "setcodes": [
+      136
+    ],
+    "cards": 38
+  },
+  "burning-abyss": {
+    "setcodes": [
+      177
+    ],
+    "cards": 20
+  },
+  "buster-blader": {
+    "setcodes": [
+      215
+    ],
+    "cards": 4
+  },
+  "butterspy": {
+    "setcodes": [
+      106
+    ],
+    "cards": 3
+  },
+  "bystial": {
+    "setcodes": [
+      393
+    ],
+    "cards": 8
+  },
+  "celtic-guard": {
+    "setcodes": [
+      228
+    ],
+    "cards": 3
+  },
+  "centur-ion": {
+    "setcodes": [
+      411
+    ],
+    "cards": 14
+  },
+  "change": {
+    "setcodes": [
+      165
+    ],
+    "cards": 31
+  },
+  "chaos": {
+    "setcodes": [
+      207
+    ],
+    "cards": 114
+  },
+  "charmer": {
+    "setcodes": [
+      191
+    ],
+    "cards": 18
+  },
+  "chemicritter": {
+    "setcodes": [
+      235
+    ],
+    "cards": 6
+  },
+  "chronomaly": {
+    "setcodes": [
+      112
+    ],
+    "cards": 29
+  },
+  "chrysalis": {
+    "setcodes": [
+      30
+    ],
+    "cards": 6
+  },
+  "cipher": {
+    "setcodes": [
+      229
+    ],
+    "cards": 16
+  },
+  "cipher-dragon": {
+    "setcodes": [
+      4325
+    ],
+    "cards": 2,
+    "parent": "cipher"
+  },
+  "clear-wing": {
+    "setcodes": [
+      255
+    ],
+    "cards": 8
+  },
+  "cloudian": {
+    "setcodes": [
+      24
+    ],
+    "cards": 13
+  },
+  "code-talker": {
+    "setcodes": [
+      257
+    ],
+    "cards": 14
+  },
+  "codebreaker": {
+    "setcodes": [
+      316
+    ],
+    "cards": 3
+  },
+  "constellar": {
+    "setcodes": [
+      83
+    ],
+    "cards": 35
+  },
+  "counter": {
+    "setcodes": [
+      512
+    ],
+    "cards": 21
+  },
+  "crusadia": {
+    "setcodes": [
+      278
+    ],
+    "cards": 15
+  },
+  "crystal": {
+    "setcodes": [
+      52
+    ],
+    "cards": 38
+  },
+  "crystal-beast": {
+    "setcodes": [
+      4148
+    ],
+    "cards": 15,
+    "parent": "crystal"
+  },
+  "crystron": {
+    "setcodes": [
+      234
+    ],
+    "cards": 21
+  },
+  "cubic": {
+    "setcodes": [
+      227
+    ],
+    "cards": 18
+  },
+  "cxyz": {
+    "setcodes": [
+      4211
+    ],
+    "cards": 10,
+    "parent": "xyz"
+  },
+  "cyber": {
+    "setcodes": [
+      147
+    ],
+    "cards": 102
+  },
+  "cyber-angel": {
+    "setcodes": [
+      8339
+    ],
+    "cards": 6,
+    "parent": "cyber"
+  },
+  "cyber-dragon": {
+    "setcodes": [
+      4243
+    ],
+    "cards": 13,
+    "parent": "cyber"
+  },
+  "cyberdark": {
+    "setcodes": [
+      16531
+    ],
+    "cards": 15,
+    "parent": "cyber"
+  },
+  "cybernetic": {
+    "setcodes": [
+      148
+    ],
+    "cards": 8
+  },
+  "cynet": {
+    "setcodes": [
+      280
+    ],
+    "cards": 16
+  },
+  "d-d": {
+    "setcodes": [
+      175
+    ],
+    "cards": 69
+  },
+  "d-d-d": {
+    "setcodes": [
+      4271
+    ],
+    "cards": 38,
+    "parent": "d-d"
+  },
+  "danger": {
+    "setcodes": [
+      286
+    ],
+    "cards": 17
+  },
+  "dante": {
+    "setcodes": [
+      213
+    ],
+    "cards": 2
+  },
+  "dark-contract": {
+    "setcodes": [
+      174
+    ],
+    "cards": 11
+  },
+  "dark-lucius": {
+    "setcodes": [
+      79
+    ],
+    "cards": 14
+  },
+  "dark-magician": {
+    "setcodes": [
+      4258
+    ],
+    "cards": 12,
+    "parent": "magician"
+  },
+  "dark-magician-girl": {
+    "setcodes": [
+      12450
+    ],
+    "cards": 4,
+    "parent": "magician"
+  },
+  "dark-mimic": {
+    "setcodes": [
+      94
+    ],
+    "cards": 2
+  },
+  "dark-scorpion": {
+    "setcodes": [
+      26
+    ],
+    "cards": 7
+  },
+  "dark-world": {
+    "setcodes": [
+      6
+    ],
+    "cards": 32
+  },
+  "darklord": {
+    "setcodes": [
+      239
+    ],
+    "cards": 30
+  },
+  "deskbot": {
+    "setcodes": [
+      171
+    ],
+    "cards": 11
+  },
+  "despia": {
+    "setcodes": [
+      358
+    ],
+    "cards": 10
+  },
+  "destiny-hero": {
+    "setcodes": [
+      49160
+    ],
+    "cards": 29,
+    "parent": "hero"
+  },
+  "destruction-sword": {
+    "setcodes": [
+      214
+    ],
+    "cards": 11
+  },
+  "diabell": {
+    "setcodes": [
+      515
+    ],
+    "cards": 10
+  },
+  "diabellstar": {
+    "setcodes": [
+      4611
+    ],
+    "cards": 3,
+    "parent": "diabell"
+  },
+  "dinomist": {
+    "setcodes": [
+      216
+    ],
+    "cards": 13
+  },
+  "dinomorphia": {
+    "setcodes": [
+      373
+    ],
+    "cards": 13
+  },
+  "dinowrestler": {
+    "setcodes": [
+      282
+    ],
+    "cards": 16
+  },
+  "djinn": {
+    "setcodes": [
+      109
+    ],
+    "cards": 28
+  },
+  "dododo": {
+    "setcodes": [
+      130
+    ],
+    "cards": 11
+  },
+  "dogmatika": {
+    "setcodes": [
+      326
+    ],
+    "cards": 26
+  },
+  "doll-monster": {
+    "setcodes": [
+      348,
+      5399
+    ],
+    "cards": 2,
+    "parent": "doll"
+  },
+  "dominus": {
+    "setcodes": [
+      447
+    ],
+    "cards": 5
+  },
+  "doodle": {
+    "setcodes": [
+      390,
+      1304
+    ],
+    "cards": 3
+  },
+  "doodle-beast": {
+    "setcodes": [
+      4486,
+      5400
+    ],
+    "cards": 2,
+    "parent": "doodle"
+  },
+  "doodlebook": {
+    "setcodes": [
+      8582
+    ],
+    "cards": 1,
+    "parent": "doodle"
+  },
+  "dracoslayer": {
+    "setcodes": [
+      199
+    ],
+    "cards": 10
+  },
+  "dracoverlord": {
+    "setcodes": [
+      218
+    ],
+    "cards": 4
+  },
+  "dragon-ruler": {
+    "setcodes": [
+      444
+    ],
+    "cards": 13
+  },
+  "dragonmaid": {
+    "setcodes": [
+      307
+    ],
+    "cards": 19
+  },
+  "dragontail": {
+    "setcodes": [
+      448
+    ],
+    "cards": 14
+  },
+  "dragunity": {
+    "setcodes": [
+      41
+    ],
+    "cards": 43
+  },
+  "dream-mirror": {
+    "setcodes": [
+      305
+    ],
+    "cards": 18
+  },
+  "drytron": {
+    "setcodes": [
+      337
+    ],
+    "cards": 20
+  },
+  "dual-avatar": {
+    "setcodes": [
+      334
+    ],
+    "cards": 12
+  },
+  "duston": {
+    "setcodes": [
+      128
+    ],
+    "cards": 10
+  },
+  "earthbound": {
+    "setcodes": [
+      33,
+      5402
+    ],
+    "cards": 29,
+    "parent": "earth"
+  },
+  "earthbound-immortal": {
+    "setcodes": [
+      4129
+    ],
+    "cards": 11,
+    "parent": "earthbound"
+  },
+  "edge-imp": {
+    "setcodes": [
+      195
+    ],
+    "cards": 7
+  },
+  "elder-entity": {
+    "setcodes": [
+      8375
+    ],
+    "cards": 2,
+    "parent": "entity"
+  },
+  "eldlich": {
+    "setcodes": [
+      322
+    ],
+    "cards": 2
+  },
+  "eldlixir": {
+    "setcodes": [
+      323
+    ],
+    "cards": 4
+  },
+  "elemental-hero": {
+    "setcodes": [
+      12296
+    ],
+    "cards": 82,
+    "parent": "hero"
+  },
+  "elemental-lord": {
+    "setcodes": [
+      275
+    ],
+    "cards": 7
+  },
+  "elementsaber": {
+    "setcodes": [
+      16397
+    ],
+    "cards": 7,
+    "parent": "saber"
+  },
+  "emblema": {
+    "setcodes": [
+      429
+    ],
+    "cards": 2
+  },
+  "empowered-warrior": {
+    "setcodes": [
+      202
+    ],
+    "cards": 6
+  },
+  "endymion": {
+    "setcodes": [
+      298
+    ],
+    "cards": 16
+  },
+  "entity": {
+    "setcodes": [
+      183
+    ],
+    "cards": 7
+  },
+  "evil-eye": {
+    "setcodes": [
+      297
+    ],
+    "cards": 18
+  },
+  "evil-hero": {
+    "setcodes": [
+      24584
+    ],
+    "cards": 19,
+    "parent": "hero"
+  },
+  "evil-twin": {
+    "setcodes": [
+      341
+    ],
+    "cards": 8
+  },
+  "evol": {
+    "setcodes": [
+      78
+    ],
+    "cards": 22
+  },
+  "evolsaur": {
+    "setcodes": [
+      24654
+    ],
+    "cards": 8,
+    "parent": "evol"
+  },
+  "evoltile": {
+    "setcodes": [
+      12366
+    ],
+    "cards": 10,
+    "parent": "evol"
+  },
+  "evolution-pill": {
+    "setcodes": [
+      270
+    ],
+    "cards": 4
+  },
+  "evolzar": {
+    "setcodes": [
+      20558
+    ],
+    "cards": 4,
+    "parent": "evol"
+  },
+  "exodd-obliterate": {
+    "setcodes": [
+      423
+    ],
+    "cards": 3
+  },
+  "exodia": {
+    "setcodes": [
+      222
+    ],
+    "cards": 7
+  },
+  "exosister": {
+    "setcodes": [
+      372
+    ],
+    "cards": 17
+  },
+  "eyes-restrict": {
+    "setcodes": [
+      4368
+    ],
+    "cards": 3,
+    "parent": "relinquished"
+  },
+  "f-a": {
+    "setcodes": [
+      263
+    ],
+    "cards": 21
+  },
+  "fabled": {
+    "setcodes": [
+      53
+    ],
+    "cards": 36
+  },
+  "familiar-possessed": {
+    "setcodes": [
+      4288
+    ],
+    "cards": 14,
+    "parent": "possessed"
+  },
+  "favorite": {
+    "setcodes": [
+      405
+    ],
+    "cards": 6
+  },
+  "fiendsmith": {
+    "setcodes": [
+      424
+    ],
+    "cards": 12
+  },
+  "fire-fist": {
+    "setcodes": [
+      121
+    ],
+    "cards": 28
+  },
+  "fire-formation": {
+    "setcodes": [
+      124
+    ],
+    "cards": 12
+  },
+  "fire-king": {
+    "setcodes": [
+      129
+    ],
+    "cards": 19
+  },
+  "fire-king-avatar": {
+    "setcodes": [
+      4225
+    ],
+    "cards": 6,
+    "parent": "fire-king"
+  },
+  "firewall": {
+    "setcodes": [
+      400
+    ],
+    "cards": 9
+  },
+  "fishborg": {
+    "setcodes": [
+      150
+    ],
+    "cards": 6
+  },
+  "flamvell": {
+    "setcodes": [
+      44
+    ],
+    "cards": 19
+  },
+  "floowandereeze": {
+    "setcodes": [
+      367
+    ],
+    "cards": 11
+  },
+  "flower-cardian": {
+    "setcodes": [
+      230
+    ],
+    "cards": 17
+  },
+  "fluffal": {
+    "setcodes": [
+      169
+    ],
+    "cards": 15
+  },
+  "forbidden": {
+    "setcodes": [
+      285
+    ],
+    "cards": 6
+  },
+  "forbidden-one": {
+    "setcodes": [
+      64
+    ],
+    "cards": 5
+  },
+  "fortune-fairy": {
+    "setcodes": [
+      302,
+      1312
+    ],
+    "cards": 6
+  },
+  "fortune-lady": {
+    "setcodes": [
+      49
+    ],
+    "cards": 10
+  },
+  "fossil": {
+    "setcodes": [
+      332
+    ],
+    "cards": 9
+  },
+  "frightfur": {
+    "setcodes": [
+      173
+    ],
+    "cards": 23
+  },
+  "frog": {
+    "setcodes": [
+      18
+    ],
+    "cards": 12
+  },
+  "fur-hire": {
+    "setcodes": [
+      276
+    ],
+    "cards": 22
+  },
+  "fusion-dragon": {
+    "setcodes": [
+      4166
+    ],
+    "cards": 5,
+    "parent": "polymerization-fusion"
+  },
+  "g-golem": {
+    "setcodes": [
+      391
+    ],
+    "cards": 7
+  },
+  "gadget": {
+    "setcodes": [
+      81
+    ],
+    "cards": 15
+  },
+  "gagaga": {
+    "setcodes": [
+      84
+    ],
+    "cards": 32
+  },
+  "gaia-the-fierce-knight": {
+    "setcodes": [
+      189
+    ],
+    "cards": 9
+  },
+  "galaxy": {
+    "setcodes": [
+      123
+    ],
+    "cards": 57
+  },
+  "galaxy-eyes": {
+    "setcodes": [
+      4219
+    ],
+    "cards": 22,
+    "parent": "galaxy"
+  },
+  "galaxy-eyes-tachyon-dragon": {
+    "setcodes": [
+      12411
+    ],
+    "cards": 2,
+    "parent": "galaxy"
+  },
+  "gandora": {
+    "setcodes": [
+      245
+    ],
+    "cards": 4
+  },
+  "gate-guardian": {
+    "setcodes": [
+      4178
+    ],
+    "cards": 6,
+    "parent": "guardian"
+  },
+  "geargia": {
+    "setcodes": [
+      114
+    ],
+    "cards": 12
+  },
+  "geargiano": {
+    "setcodes": [
+      4210
+    ],
+    "cards": 3,
+    "parent": "geargia"
+  },
+  "gem": {
+    "setcodes": [
+      71
+    ],
+    "cards": 40
+  },
+  "gem-knight": {
+    "setcodes": [
+      4167
+    ],
+    "cards": 33,
+    "parent": "gem"
+  },
+  "generaider": {
+    "setcodes": [
+      308
+    ],
+    "cards": 18
+  },
+  "genex": {
+    "setcodes": [
+      2
+    ],
+    "cards": 46
+  },
+  "genex-ally": {
+    "setcodes": [
+      8194
+    ],
+    "cards": 14,
+    "parent": "genex"
+  },
+  "ghostrick": {
+    "setcodes": [
+      141
+    ],
+    "cards": 33
+  },
+  "ghoti": {
+    "setcodes": [
+      395
+    ],
+    "cards": 15
+  },
+  "gimmick-puppet": {
+    "setcodes": [
+      4227
+    ],
+    "cards": 26,
+    "parent": "puppet"
+  },
+  "gishki": {
+    "setcodes": [
+      58
+    ],
+    "cards": 32
+  },
+  "gladiator": {
+    "setcodes": [
+      25
+    ],
+    "cards": 53
+  },
+  "gladiator-beast": {
+    "setcodes": [
+      4121
+    ],
+    "cards": 47,
+    "parent": "gladiator"
+  },
+  "goblin": {
+    "setcodes": [
+      172
+    ],
+    "cards": 47
+  },
+  "goblin-biker": {
+    "setcodes": [
+      4268
+    ],
+    "cards": 14,
+    "parent": "goblin"
+  },
+  "gogogo": {
+    "setcodes": [
+      89
+    ],
+    "cards": 13
+  },
+  "gold-pride": {
+    "setcodes": [
+      403
+    ],
+    "cards": 16
+  },
+  "golden-land": {
+    "setcodes": [
+      324
+    ],
+    "cards": 7
+  },
+  "gottoms": {
+    "setcodes": [
+      176
+    ],
+    "cards": 5
+  },
+  "gouki": {
+    "setcodes": [
+      252
+    ],
+    "cards": 30
+  },
+  "gransolfachord": {
+    "setcodes": [
+      4452
+    ],
+    "cards": 2,
+    "parent": "solfachord"
+  },
+  "gravekeeper-s": {
+    "setcodes": [
+      46
+    ],
+    "cards": 26
+  },
+  "graydle": {
+    "setcodes": [
+      209
+    ],
+    "cards": 10
+  },
+  "guardian": {
+    "setcodes": [
+      82
+    ],
+    "cards": 43
+  },
+  "gunkan": {
+    "setcodes": [
+      360
+    ],
+    "cards": 11
+  },
+  "gusto": {
+    "setcodes": [
+      16
+    ],
+    "cards": 27
+  },
+  "harpie": {
+    "setcodes": [
+      100
+    ],
+    "cards": 22
+  },
+  "hazy": {
+    "setcodes": [
+      125
+    ],
+    "cards": 10
+  },
+  "hazy-flame": {
+    "setcodes": [
+      4221
+    ],
+    "cards": 8,
+    "parent": "hazy"
+  },
+  "heart": {
+    "setcodes": [
+      519
+    ],
+    "cards": 4
+  },
+  "heraldic-beast": {
+    "setcodes": [
+      118
+    ],
+    "cards": 10
+  },
+  "heraldry": {
+    "setcodes": [
+      146
+    ],
+    "cards": 11
+  },
+  "hero": {
+    "setcodes": [
+      8
+    ],
+    "cards": 159
+  },
+  "heroic": {
+    "setcodes": [
+      111
+    ],
+    "cards": 25
+  },
+  "heroic-challenger": {
+    "setcodes": [
+      4207
+    ],
+    "cards": 12,
+    "parent": "heroic"
+  },
+  "heroic-champion": {
+    "setcodes": [
+      8303
+    ],
+    "cards": 7,
+    "parent": "heroic"
+  },
+  "hieratic": {
+    "setcodes": [
+      105
+    ],
+    "cards": 20
+  },
+  "hole": {
+    "setcodes": [
+      137
+    ],
+    "cards": 23
+  },
+  "horus": {
+    "setcodes": [
+      3
+    ],
+    "cards": 11
+  },
+  "horus-the-black-flame-dragon": {
+    "setcodes": [
+      4099
+    ],
+    "cards": 3,
+    "parent": "horus"
+  },
+  "hydradrive": {
+    "setcodes": [
+      1399
+    ],
+    "cards": 1
+  },
+  "hyperion": {
+    "setcodes": [
+      369
+    ],
+    "cards": 3
+  },
+  "ice-barrier": {
+    "setcodes": [
+      47
+    ],
+    "cards": 44
+  },
+  "icejade": {
+    "setcodes": [
+      366
+    ],
+    "cards": 14
+  },
+  "igknight": {
+    "setcodes": [
+      200
+    ],
+    "cards": 14
+  },
+  "impcantation": {
+    "setcodes": [
+      279
+    ],
+    "cards": 8
+  },
+  "infernity": {
+    "setcodes": [
+      11
+    ],
+    "cards": 31
+  },
+  "infernoble": {
+    "setcodes": [
+      16506
+    ],
+    "cards": 16,
+    "parent": "noble"
+  },
+  "infernoble-arms": {
+    "setcodes": [
+      24698
+    ],
+    "cards": 4,
+    "parent": "noble"
+  },
+  "infernoble-knight": {
+    "setcodes": [
+      20602
+    ],
+    "cards": 12,
+    "parent": "noble"
+  },
+  "infernoid": {
+    "setcodes": [
+      187
+    ],
+    "cards": 14
+  },
+  "infestation": {
+    "setcodes": [
+      101
+    ],
+    "cards": 8
+  },
+  "infinitrack": {
+    "setcodes": [
+      295
+    ],
+    "cards": 13
+  },
+  "inmato": {
+    "setcodes": [
+      91
+    ],
+    "cards": 2
+  },
+  "invoked": {
+    "setcodes": [
+      244
+    ],
+    "cards": 13
+  },
+  "inzektor": {
+    "setcodes": [
+      86
+    ],
+    "cards": 20
+  },
+  "iron-chain": {
+    "setcodes": [
+      37
+    ],
+    "cards": 5
+  },
+  "jinzo": {
+    "setcodes": [
+      188
+    ],
+    "cards": 7
+  },
+  "junk": {
+    "setcodes": [
+      67
+    ],
+    "cards": 32
+  },
+  "jurrac": {
+    "setcodes": [
+      34
+    ],
+    "cards": 23
+  },
+  "k9": {
+    "setcodes": [
+      452
+    ],
+    "cards": 14
+  },
+  "kaiju": {
+    "setcodes": [
+      211
+    ],
+    "cards": 12
+  },
+  "kairyu-shin": {
+    "setcodes": [
+      377
+    ],
+    "cards": 5
+  },
+  "karakuri": {
+    "setcodes": [
+      17
+    ],
+    "cards": 27
+  },
+  "kashtira": {
+    "setcodes": [
+      394
+    ],
+    "cards": 14
+  },
+  "ki-sikil": {
+    "setcodes": [
+      339
+    ],
+    "cards": 5
+  },
+  "knightmare": {
+    "setcodes": [
+      274
+    ],
+    "cards": 9
+  },
+  "koa-ki-meiru": {
+    "setcodes": [
+      29
+    ],
+    "cards": 29
+  },
+  "koala": {
+    "setcodes": [
+      103,
+      1329
+    ],
+    "cards": 6
+  },
+  "kozmo": {
+    "setcodes": [
+      210
+    ],
+    "cards": 20
+  },
+  "krawler": {
+    "setcodes": [
+      260
+    ],
+    "cards": 12
+  },
+  "kuriboh": {
+    "setcodes": [
+      164
+    ],
+    "cards": 28
+  },
+  "labrynth": {
+    "setcodes": [
+      383
+    ],
+    "cards": 15
+  },
+  "labyrinth-wall": {
+    "setcodes": [
+      404
+    ],
+    "cards": 2
+  },
+  "lady-of-lament": {
+    "setcodes": [
+      374
+    ],
+    "cards": 4
+  },
+  "laundsallyn": {
+    "setcodes": [
+      168
+    ],
+    "cards": 3
+  },
+  "laval": {
+    "setcodes": [
+      57
+    ],
+    "cards": 23
+  },
+  "legendary-dragon": {
+    "setcodes": [
+      161
+    ],
+    "cards": 3
+  },
+  "legendary-knight": {
+    "setcodes": [
+      160
+    ],
+    "cards": 3
+  },
+  "libromancer": {
+    "setcodes": [
+      381
+    ],
+    "cards": 15
+  },
+  "lightsworn": {
+    "setcodes": [
+      56
+    ],
+    "cards": 31
+  },
+  "lil-la": {
+    "setcodes": [
+      340
+    ],
+    "cards": 6
+  },
+  "live-twin": {
+    "setcodes": [
+      342
+    ],
+    "cards": 8
+  },
+  "lswarm": {
+    "setcodes": [
+      10
+    ],
+    "cards": 35
+  },
+  "lunalight": {
+    "setcodes": [
+      223
+    ],
+    "cards": 23
+  },
+  "lv": {
+    "setcodes": [
+      65
+    ],
+    "cards": 38
+  },
+  "lyrilusc": {
+    "setcodes": [
+      247
+    ],
+    "cards": 14
+  },
+  "machina": {
+    "setcodes": [
+      54
+    ],
+    "cards": 21
+  },
+  "machine-angel": {
+    "setcodes": [
+      292
+    ],
+    "cards": 5
+  },
+  "madolche": {
+    "setcodes": [
+      113
+    ],
+    "cards": 29
+  },
+  "magical-musket": {
+    "setcodes": [
+      264
+    ],
+    "cards": 16
+  },
+  "magician": {
+    "setcodes": [
+      152,
+      162
+    ],
+    "cards": 51
+  },
+  "magician-girl": {
+    "setcodes": [
+      8354
+    ],
+    "cards": 10,
+    "parent": "magician"
+  },
+  "magikey": {
+    "setcodes": [
+      359
+    ],
+    "cards": 15
+  },
+  "magistus": {
+    "setcodes": [
+      338
+    ],
+    "cards": 22
+  },
+  "magna-warrior": {
+    "setcodes": [
+      233
+    ],
+    "cards": 4
+  },
+  "magnet-warrior": {
+    "setcodes": [
+      8294
+    ],
+    "cards": 75,
+    "parent": "warrior"
+  },
+  "majespecter": {
+    "setcodes": [
+      208
+    ],
+    "cards": 18
+  },
+  "majestic": {
+    "setcodes": [
+      63
+    ],
+    "cards": 7
+  },
+  "malefic": {
+    "setcodes": [
+      35
+    ],
+    "cards": 18
+  },
+  "malicevorous": {
+    "setcodes": [
+      139
+    ],
+    "cards": 3
+  },
+  "maliss": {
+    "setcodes": [
+      441
+    ],
+    "cards": 12
+  },
+  "mannadium": {
+    "setcodes": [
+      401
+    ],
+    "cards": 10
+  },
+  "marincess": {
+    "setcodes": [
+      299
+    ],
+    "cards": 27
+  },
+  "masked-hero": {
+    "setcodes": [
+      40968
+    ],
+    "cards": 13,
+    "parent": "hero"
+  },
+  "materiactor": {
+    "setcodes": [
+      354
+    ],
+    "cards": 10
+  },
+  "mathmech": {
+    "setcodes": [
+      306
+    ],
+    "cards": 16
+  },
+  "mayakashi": {
+    "setcodes": [
+      289
+    ],
+    "cards": 20
+  },
+  "mecha-phantom-beast": {
+    "setcodes": [
+      4123
+    ],
+    "cards": 19,
+    "parent": "phantom-beast"
+  },
+  "megalith": {
+    "setcodes": [
+      312
+    ],
+    "cards": 14
+  },
+  "mekk-knight": {
+    "setcodes": [
+      268
+    ],
+    "cards": 13
+  },
+  "meklord": {
+    "setcodes": [
+      19
+    ],
+    "cards": 19
+  },
+  "meklord-army": {
+    "setcodes": [
+      24595
+    ],
+    "cards": 5,
+    "parent": "meklord"
+  },
+  "meklord-astro": {
+    "setcodes": [
+      36883
+    ],
+    "cards": 4,
+    "parent": "meklord"
+  },
+  "meklord-emperor": {
+    "setcodes": [
+      12307
+    ],
+    "cards": 5,
+    "parent": "meklord"
+  },
+  "melffy": {
+    "setcodes": [
+      327
+    ],
+    "cards": 20
+  },
+  "melodious": {
+    "setcodes": [
+      155
+    ],
+    "cards": 22
+  },
+  "melodious-maestra": {
+    "setcodes": [
+      4251
+    ],
+    "cards": 4,
+    "parent": "melodious"
+  },
+  "memento": {
+    "setcodes": [
+      410
+    ],
+    "cards": 18
+  },
+  "mermail": {
+    "setcodes": [
+      116
+    ],
+    "cards": 21
+  },
+  "metalfoes": {
+    "setcodes": [
+      225
+    ],
+    "cards": 20
+  },
+  "metalmorph": {
+    "setcodes": [
+      434
+    ],
+    "cards": 5
+  },
+  "metaphys": {
+    "setcodes": [
+      261
+    ],
+    "cards": 12
+  },
+  "mikanko": {
+    "setcodes": [
+      398
+    ],
+    "cards": 19
+  },
+  "millennium": {
+    "setcodes": [
+      422
+    ],
+    "cards": 16
+  },
+  "mimighoul": {
+    "setcodes": [
+      437
+    ],
+    "cards": 15
+  },
+  "mist-valley": {
+    "setcodes": [
+      55
+    ],
+    "cards": 12
+  },
+  "mitsurugi": {
+    "setcodes": [
+      445
+    ],
+    "cards": 14
+  },
+  "mokey-mokey": {
+    "setcodes": [
+      388
+    ],
+    "cards": 4
+  },
+  "monarch": {
+    "setcodes": [
+      190
+    ],
+    "cards": 20
+  },
+  "morganite": {
+    "setcodes": [
+      435
+    ],
+    "cards": 4
+  },
+  "morphtronic": {
+    "setcodes": [
+      38
+    ],
+    "cards": 34
+  },
+  "mulcharmy": {
+    "setcodes": [
+      428
+    ],
+    "cards": 3
+  },
+  "mystic-swordsman": {
+    "setcodes": [
+      95
+    ],
+    "cards": 3
+  },
+  "mystical-beast-of-the-forest": {
+    "setcodes": [
+      4457
+    ],
+    "cards": 7,
+    "parent": "of-the-forest"
+  },
+  "mystical-spirit-of-the-forest": {
+    "setcodes": [
+      8553
+    ],
+    "cards": 1,
+    "parent": "of-the-forest"
+  },
+  "mythical-beast": {
+    "setcodes": [
+      269
+    ],
+    "cards": 7
+  },
+  "myutant": {
+    "setcodes": [
+      345
+    ],
+    "cards": 15
+  },
+  "naturia": {
+    "setcodes": [
+      42
+    ],
+    "cards": 42
+  },
+  "necrovalley": {
+    "setcodes": [
+      145
+    ],
+    "cards": 5
+  },
+  "nekroz": {
+    "setcodes": [
+      180
+    ],
+    "cards": 24
+  },
+  "nemeses": {
+    "setcodes": [
+      317
+    ],
+    "cards": 7
+  },
+  "nemleria": {
+    "setcodes": [
+      402
+    ],
+    "cards": 9
+  },
+  "neo-spacian": {
+    "setcodes": [
+      31
+    ],
+    "cards": 6
+  },
+  "neos": {
+    "setcodes": [
+      9
+    ],
+    "cards": 35
+  },
+  "nephthys": {
+    "setcodes": [
+      287
+    ],
+    "cards": 17
+  },
+  "nimble": {
+    "setcodes": [
+      120
+    ],
+    "cards": 7
+  },
+  "ninja": {
+    "setcodes": [
+      43
+    ],
+    "cards": 46
+  },
+  "ninjitsu-art": {
+    "setcodes": [
+      97
+    ],
+    "cards": 16
+  },
+  "nitro": {
+    "setcodes": [
+      45
+    ],
+    "cards": 3
+  },
+  "noble": {
+    "setcodes": [
+      122
+    ],
+    "cards": 57
+  },
+  "noble-arms": {
+    "setcodes": [
+      8314
+    ],
+    "cards": 19,
+    "parent": "noble"
+  },
+  "noble-knight": {
+    "setcodes": [
+      4218
+    ],
+    "cards": 39,
+    "parent": "noble"
+  },
+  "nordic": {
+    "setcodes": [
+      66
+    ],
+    "cards": 26
+  },
+  "nordic-alfar": {
+    "setcodes": [
+      41026
+    ],
+    "cards": 5,
+    "parent": "nordic"
+  },
+  "nordic-ascendant": {
+    "setcodes": [
+      12354
+    ],
+    "cards": 4,
+    "parent": "nordic"
+  },
+  "nordic-beast": {
+    "setcodes": [
+      24642
+    ],
+    "cards": 5,
+    "parent": "nordic"
+  },
+  "nordic-relic": {
+    "setcodes": [
+      20546
+    ],
+    "cards": 7,
+    "parent": "nordic"
+  },
+  "nouvelles": {
+    "setcodes": [
+      407
+    ],
+    "cards": 10
+  },
+  "number": {
+    "setcodes": [
+      72,
+      364
+    ],
+    "cards": 167
+  },
+  "number-c": {
+    "setcodes": [
+      4168
+    ],
+    "cards": 29,
+    "parent": "number"
+  },
+  "number-c39": {
+    "setcodes": [
+      20552
+    ],
+    "cards": 3,
+    "parent": "number"
+  },
+  "number-s": {
+    "setcodes": [
+      8264
+    ],
+    "cards": 5,
+    "parent": "number"
+  },
+  "numeron": {
+    "setcodes": [
+      331
+    ],
+    "cards": 14
+  },
+  "numeron-gate": {
+    "setcodes": [
+      4427
+    ],
+    "cards": 4,
+    "parent": "numeron"
+  },
+  "numerounius": {
+    "setcodes": [
+      363
+    ],
+    "cards": 2
+  },
+  "odd-eyes": {
+    "setcodes": [
+      153
+    ],
+    "cards": 38
+  },
+  "of-the-forest": {
+    "setcodes": [
+      361
+    ],
+    "cards": 8
+  },
+  "ogdoadic": {
+    "setcodes": [
+      355
+    ],
+    "cards": 16
+  },
+  "ojama": {
+    "setcodes": [
+      15
+    ],
+    "cards": 18
+  },
+  "old-entity": {
+    "setcodes": [
+      16567
+    ],
+    "cards": 2,
+    "parent": "entity"
+  },
+  "onomat": {
+    "setcodes": [
+      313
+    ],
+    "cards": 5
+  },
+  "orcust": {
+    "setcodes": [
+      283
+    ],
+    "cards": 18
+  },
+  "outer-entity": {
+    "setcodes": [
+      4279
+    ],
+    "cards": 2,
+    "parent": "entity"
+  },
+  "p-u-n-k": {
+    "setcodes": [
+      371
+    ],
+    "cards": 17
+  },
+  "paleozoic": {
+    "setcodes": [
+      212,
+      34081
+    ],
+    "cards": 11,
+    "parent": "gaia-the-dragon-champion"
+  },
+  "palladium": {
+    "setcodes": [
+      314
+    ],
+    "cards": 2
+  },
+  "parshath": {
+    "setcodes": [
+      266
+    ],
+    "cards": 8
+  },
+  "patissciel": {
+    "setcodes": [
+      518
+    ],
+    "cards": 1
+  },
+  "pendulum": {
+    "setcodes": [
+      242
+    ],
+    "cards": 48
+  },
+  "pendulum-dragon": {
+    "setcodes": [
+      4338
+    ],
+    "cards": 7,
+    "parent": "pendulum"
+  },
+  "pendulumgraph": {
+    "setcodes": [
+      8434
+    ],
+    "cards": 3,
+    "parent": "pendulum"
+  },
+  "penguin": {
+    "setcodes": [
+      90
+    ],
+    "cards": 19
+  },
+  "performage": {
+    "setcodes": [
+      198
+    ],
+    "cards": 16
+  },
+  "performapal": {
+    "setcodes": [
+      159
+    ],
+    "cards": 101
+  },
+  "phantasm": {
+    "setcodes": [
+      325
+    ],
+    "cards": 20
+  },
+  "phantasm-spiral": {
+    "setcodes": [
+      250
+    ],
+    "cards": 7
+  },
+  "phantom-beast": {
+    "setcodes": [
+      27
+    ],
+    "cards": 30
+  },
+  "phantom-knights": {
+    "setcodes": [
+      219
+    ],
+    "cards": 39
+  },
+  "photon": {
+    "setcodes": [
+      85
+    ],
+    "cards": 46
+  },
+  "plunder-patroll": {
+    "setcodes": [
+      319
+    ],
+    "cards": 16
+  },
+  "polymerization-fusion": {
+    "setcodes": [
+      70
+    ],
+    "cards": 110
+  },
+  "possessed": {
+    "setcodes": [
+      192
+    ],
+    "cards": 24
+  },
+  "potan": {
+    "setcodes": [
+      328
+    ],
+    "cards": 3
+  },
+  "power-tool": {
+    "setcodes": [
+      194
+    ],
+    "cards": 3
+  },
+  "prank-kids": {
+    "setcodes": [
+      288
+    ],
+    "cards": 15
+  },
+  "predap": {
+    "setcodes": [
+      243
+    ],
+    "cards": 37
+  },
+  "predaplant": {
+    "setcodes": [
+      4339
+    ],
+    "cards": 28,
+    "parent": "predap"
+  },
+  "prediction-princess": {
+    "setcodes": [
+      204
+    ],
+    "cards": 8
+  },
+  "primite": {
+    "setcodes": [
+      432
+    ],
+    "cards": 9
+  },
+  "prophecy": {
+    "setcodes": [
+      110
+    ],
+    "cards": 78
+  },
+  "psy-frame": {
+    "setcodes": [
+      193
+    ],
+    "cards": 13
+  },
+  "psy-framegear": {
+    "setcodes": [
+      4289
+    ],
+    "cards": 5,
+    "parent": "psy-frame"
+  },
+  "puppet": {
+    "setcodes": [
+      131,
+      1344
+    ],
+    "cards": 39
+  },
+  "purrely": {
+    "setcodes": [
+      397
+    ],
+    "cards": 16
+  },
+  "qli": {
+    "setcodes": [
+      170
+    ],
+    "cards": 17
+  },
+  "r-genex": {
+    "setcodes": [
+      4098
+    ],
+    "cards": 11,
+    "parent": "genex"
+  },
+  "ragnaraika": {
+    "setcodes": [
+      419
+    ],
+    "cards": 12
+  },
+  "raidraptor": {
+    "setcodes": [
+      186
+    ],
+    "cards": 46
+  },
+  "rainbow-bridge": {
+    "setcodes": [
+      392
+    ],
+    "cards": 3
+  },
+  "rank-down-magic": {
+    "setcodes": [
+      349
+    ],
+    "cards": 1
+  },
+  "rank-up-magic": {
+    "setcodes": [
+      149
+    ],
+    "cards": 23
+  },
+  "reactor": {
+    "setcodes": [
+      99
+    ],
+    "cards": 5
+  },
+  "rebellion": {
+    "setcodes": [
+      315
+    ],
+    "cards": 8
+  },
+  "recipe": {
+    "setcodes": [
+      408
+    ],
+    "cards": 6
+  },
+  "red-dragon-archfiend": {
+    "setcodes": [
+      4165
+    ],
+    "cards": 10,
+    "parent": "archfiend"
+  },
+  "red-eyes": {
+    "setcodes": [
+      59
+    ],
+    "cards": 32
+  },
+  "regenesis": {
+    "setcodes": [
+      446
+    ],
+    "cards": 11
+  },
+  "relinquished": {
+    "setcodes": [
+      272
+    ],
+    "cards": 12
+  },
+  "reptilianne": {
+    "setcodes": [
+      60
+    ],
+    "cards": 19
+  },
+  "rescue-ace": {
+    "setcodes": [
+      396
+    ],
+    "cards": 17
+  },
+  "resonator": {
+    "setcodes": [
+      87
+    ],
+    "cards": 18
+  },
+  "rikka": {
+    "setcodes": [
+      321
+    ],
+    "cards": 16
+  },
+  "ritual-beast": {
+    "setcodes": [
+      181
+    ],
+    "cards": 23
+  },
+  "ritual-beast-tamer": {
+    "setcodes": [
+      4277
+    ],
+    "cards": 7,
+    "parent": "ritual-beast"
+  },
+  "ritual-beast-ulti": {
+    "setcodes": [
+      16565
+    ],
+    "cards": 7,
+    "parent": "ritual-beast"
+  },
+  "roid": {
+    "setcodes": [
+      22
+    ],
+    "cards": 77
+  },
+  "rokket": {
+    "setcodes": [
+      258
+    ],
+    "cards": 16
+  },
+  "roland": {
+    "setcodes": [
+      329
+    ],
+    "cards": 2
+  },
+  "rose": {
+    "setcodes": [
+      291
+    ],
+    "cards": 56
+  },
+  "rose-dragon": {
+    "setcodes": [
+      4387
+    ],
+    "cards": 9,
+    "parent": "rose"
+  },
+  "runick": {
+    "setcodes": [
+      384
+    ],
+    "cards": 15
+  },
+  "ryu-ge": {
+    "setcodes": [
+      440
+    ],
+    "cards": 12
+  },
+  "ryzeal": {
+    "setcodes": [
+      438
+    ],
+    "cards": 12
+  },
+  "s-force": {
+    "setcodes": [
+      346
+    ],
+    "cards": 20
+  },
+  "saber": {
+    "setcodes": [
+      13
+    ],
+    "cards": 48
+  },
+  "salamandra": {
+    "setcodes": [
+      420
+    ],
+    "cards": 5
+  },
+  "salamangreat": {
+    "setcodes": [
+      281
+    ],
+    "cards": 47
+  },
+  "sangen": {
+    "setcodes": [
+      418
+    ],
+    "cards": 6
+  },
+  "scareclaw": {
+    "setcodes": [
+      380
+    ],
+    "cards": 14
+  },
+  "schoolwork": {
+    "setcodes": [
+      439
+    ],
+    "cards": 1
+  },
+  "scrap": {
+    "setcodes": [
+      36
+    ],
+    "cards": 31
+  },
+  "sea-stealth": {
+    "setcodes": [
+      378
+    ],
+    "cards": 2
+  },
+  "secret-six-samurai": {
+    "setcodes": [
+      4157
+    ],
+    "cards": 6,
+    "parent": "six-samurai"
+  },
+  "serket": {
+    "setcodes": [
+      451
+    ],
+    "cards": 3
+  },
+  "seventh": {
+    "setcodes": [
+      375
+    ],
+    "cards": 7
+  },
+  "shaddoll": {
+    "setcodes": [
+      157
+    ],
+    "cards": 32
+  },
+  "shark": {
+    "setcodes": [
+      430,
+      1351
+    ],
+    "cards": 47
+  },
+  "shark-drake": {
+    "setcodes": [
+      4526
+    ],
+    "cards": 3,
+    "parent": "shark"
+  },
+  "shien": {
+    "setcodes": [
+      32
+    ],
+    "cards": 13
+  },
+  "shiranui": {
+    "setcodes": [
+      217
+    ],
+    "cards": 21
+  },
+  "shiranui-spectralsword": {
+    "setcodes": [
+      4313
+    ],
+    "cards": 2,
+    "parent": "shiranui"
+  },
+  "silent-magician": {
+    "setcodes": [
+      232
+    ],
+    "cards": 4
+  },
+  "silent-swordsman": {
+    "setcodes": [
+      231
+    ],
+    "cards": 5
+  },
+  "simorgh": {
+    "setcodes": [
+      301
+    ],
+    "cards": 15
+  },
+  "sinful-spoils": {
+    "setcodes": [
+      516
+    ],
+    "cards": 16
+  },
+  "six-samurai": {
+    "setcodes": [
+      61
+    ],
+    "cards": 37
+  },
+  "six-strike": {
+    "setcodes": [
+      433
+    ],
+    "cards": 4
+  },
+  "skull-guardian": {
+    "setcodes": [
+      8274
+    ],
+    "cards": 2,
+    "parent": "guardian"
+  },
+  "sky-striker": {
+    "setcodes": [
+      277
+    ],
+    "cards": 35
+  },
+  "sky-striker-ace": {
+    "setcodes": [
+      4373
+    ],
+    "cards": 14,
+    "parent": "sky-striker"
+  },
+  "skyblaster": {
+    "setcodes": [
+      73
+    ],
+    "cards": 4
+  },
+  "skyscraper": {
+    "setcodes": [
+      246
+    ],
+    "cards": 2
+  },
+  "smile": {
+    "setcodes": [
+      293
+    ],
+    "cards": 5
+  },
+  "snake-eye": {
+    "setcodes": [
+      517
+    ],
+    "cards": 13
+  },
+  "solfachord": {
+    "setcodes": [
+      356
+    ],
+    "cards": 19
+  },
+  "speedroid": {
+    "setcodes": [
+      8214
+    ],
+    "cards": 40,
+    "parent": "roid"
+  },
+  "spellbook": {
+    "setcodes": [
+      4206
+    ],
+    "cards": 18,
+    "parent": "prophecy"
+  },
+  "sphinx": {
+    "setcodes": [
+      92
+    ],
+    "cards": 10
+  },
+  "spirit-message": {
+    "setcodes": [
+      28
+    ],
+    "cards": 4
+  },
+  "spiritual-art": {
+    "setcodes": [
+      333
+    ],
+    "cards": 8
+  },
+  "spiritual-beast": {
+    "setcodes": [
+      8373
+    ],
+    "cards": 6,
+    "parent": "ritual-beast"
+  },
+  "spiritual-beast-tamer": {
+    "setcodes": [
+      12469
+    ],
+    "cards": 2,
+    "parent": "ritual-beast"
+  },
+  "spiritual-earth-art": {
+    "setcodes": [
+      12621
+    ],
+    "cards": 1,
+    "parent": "spiritual-art"
+  },
+  "spiritual-fire-art": {
+    "setcodes": [
+      20813
+    ],
+    "cards": 1,
+    "parent": "spiritual-art"
+  },
+  "spiritual-water-art": {
+    "setcodes": [
+      24909
+    ],
+    "cards": 1,
+    "parent": "spiritual-art"
+  },
+  "spiritual-wind-art": {
+    "setcodes": [
+      41293
+    ],
+    "cards": 1,
+    "parent": "spiritual-art"
+  },
+  "spright": {
+    "setcodes": [
+      385
+    ],
+    "cards": 12
+  },
+  "springans": {
+    "setcodes": [
+      344
+    ],
+    "cards": 16
+  },
+  "sprout": {
+    "setcodes": [
+      166
+    ],
+    "cards": 2
+  },
+  "spyral": {
+    "setcodes": [
+      238
+    ],
+    "cards": 16
+  },
+  "spyral-gear": {
+    "setcodes": [
+      4334
+    ],
+    "cards": 5,
+    "parent": "spyral"
+  },
+  "spyral-mission": {
+    "setcodes": [
+      8430
+    ],
+    "cards": 3,
+    "parent": "spyral"
+  },
+  "star-seraph": {
+    "setcodes": [
+      134
+    ],
+    "cards": 7
+  },
+  "stardust": {
+    "setcodes": [
+      163
+    ],
+    "cards": 22
+  },
+  "starry-knight": {
+    "setcodes": [
+      347
+    ],
+    "cards": 10
+  },
+  "starving-venom": {
+    "setcodes": [
+      4176
+    ],
+    "cards": 5,
+    "parent": "venom"
+  },
+  "stealth-kragen": {
+    "setcodes": [
+      362
+    ],
+    "cards": 2
+  },
+  "steelswarm": {
+    "setcodes": [
+      4106
+    ],
+    "cards": 15,
+    "parent": "lswarm"
+  },
+  "stellarknight": {
+    "setcodes": [
+      4252
+    ],
+    "cards": 6,
+    "parent": "tellarknight"
+  },
+  "subterror": {
+    "setcodes": [
+      237
+    ],
+    "cards": 18
+  },
+  "subterror-behemoth": {
+    "setcodes": [
+      4333
+    ],
+    "cards": 10,
+    "parent": "subterror"
+  },
+  "sun": {
+    "setcodes": [
+      343
+    ],
+    "cards": 17
+  },
+  "sunavalon": {
+    "setcodes": [
+      4439,
+      1396
+    ],
+    "cards": 7,
+    "parent": "sun"
+  },
+  "sunseed": {
+    "setcodes": [
+      16727
+    ],
+    "cards": 3,
+    "parent": "sun"
+  },
+  "sunvine": {
+    "setcodes": [
+      8535,
+      1397
+    ],
+    "cards": 7,
+    "parent": "sun"
+  },
+  "super-defense-robot": {
+    "setcodes": [
+      133
+    ],
+    "cards": 3
+  },
+  "super-quant": {
+    "setcodes": [
+      220
+    ],
+    "cards": 19
+  },
+  "super-quantal-mech-beast": {
+    "setcodes": [
+      8412
+    ],
+    "cards": 4,
+    "parent": "super-quant"
+  },
+  "super-quantum": {
+    "setcodes": [
+      4316
+    ],
+    "cards": 6,
+    "parent": "super-quant"
+  },
+  "superheavy-samurai": {
+    "setcodes": [
+      154
+    ],
+    "cards": 47
+  },
+  "superheavy-samurai-soul": {
+    "setcodes": [
+      4250
+    ],
+    "cards": 11,
+    "parent": "superheavy-samurai"
+  },
+  "supreme-king": {
+    "setcodes": [
+      248
+    ],
+    "cards": 28
+  },
+  "supreme-king-dragon": {
+    "setcodes": [
+      8440
+    ],
+    "cards": 6,
+    "parent": "supreme-king"
+  },
+  "supreme-king-gate": {
+    "setcodes": [
+      4344
+    ],
+    "cards": 3,
+    "parent": "supreme-king"
+  },
+  "swordsoul": {
+    "setcodes": [
+      365
+    ],
+    "cards": 17
+  },
+  "sylvan": {
+    "setcodes": [
+      144
+    ],
+    "cards": 21
+  },
+  "symphonic-warrior": {
+    "setcodes": [
+      4198
+    ],
+    "cards": 21,
+    "parent": "warrior"
+  },
+  "synchro": {
+    "setcodes": [
+      23
+    ],
+    "cards": 76
+  },
+  "synchro-dragon": {
+    "setcodes": [
+      8215
+    ],
+    "cards": 6,
+    "parent": "synchro"
+  },
+  "synchron": {
+    "setcodes": [
+      4119
+    ],
+    "cards": 31,
+    "parent": "synchro"
+  },
+  "t-g": {
+    "setcodes": [
+      39
+    ],
+    "cards": 29
+  },
+  "tachyon": {
+    "setcodes": [
+      427,
+      1365
+    ],
+    "cards": 10
+  },
+  "tearlaments": {
+    "setcodes": [
+      386
+    ],
+    "cards": 15
+  },
+  "tellarknight": {
+    "setcodes": [
+      156
+    ],
+    "cards": 28
+  },
+  "tenpai-dragon": {
+    "setcodes": [
+      417
+    ],
+    "cards": 4
+  },
+  "tenyi": {
+    "setcodes": [
+      300
+    ],
+    "cards": 17
+  },
+  "the-agent": {
+    "setcodes": [
+      68
+    ],
+    "cards": 11
+  },
+  "the-phantom-knights": {
+    "setcodes": [
+      4315
+    ],
+    "cards": 27,
+    "parent": "phantom-knights"
+  },
+  "the-weather": {
+    "setcodes": [
+      265
+    ],
+    "cards": 16
+  },
+  "therion": {
+    "setcodes": [
+      379
+    ],
+    "cards": 11
+  },
+  "thunder-dragon": {
+    "setcodes": [
+      284
+    ],
+    "cards": 14
+  },
+  "time-thief": {
+    "setcodes": [
+      294
+    ],
+    "cards": 14
+  },
+  "timelord": {
+    "setcodes": [
+      74
+    ],
+    "cards": 12
+  },
+  "tindangle": {
+    "setcodes": [
+      267
+    ],
+    "cards": 10
+  },
+  "tistina": {
+    "setcodes": [
+      520
+    ],
+    "cards": 15
+  },
+  "toon": {
+    "setcodes": [
+      98
+    ],
+    "cards": 31
+  },
+  "topologic": {
+    "setcodes": [
+      368
+    ],
+    "cards": 5
+  },
+  "toy": {
+    "setcodes": [
+      416,
+      1369
+    ],
+    "cards": 11
+  },
+  "trap-hole": {
+    "setcodes": [
+      76
+    ],
+    "cards": 19
+  },
+  "traptrix": {
+    "setcodes": [
+      138
+    ],
+    "cards": 16
+  },
+  "tri-brigade": {
+    "setcodes": [
+      335
+    ],
+    "cards": 20
+  },
+  "triamid": {
+    "setcodes": [
+      226
+    ],
+    "cards": 9
+  },
+  "trickstar": {
+    "setcodes": [
+      251
+    ],
+    "cards": 31
+  },
+  "true-draco-true-king": {
+    "setcodes": [
+      249
+    ],
+    "cards": 19
+  },
+  "u-a": {
+    "setcodes": [
+      178
+    ],
+    "cards": 18
+  },
+  "ultimate-crystal": {
+    "setcodes": [
+      8244
+    ],
+    "cards": 4,
+    "parent": "crystal"
+  },
+  "ultimate-insect": {
+    "setcodes": [
+      93
+    ],
+    "cards": 4
+  },
+  "umbral-horror": {
+    "setcodes": [
+      135
+    ],
+    "cards": 5
+  },
+  "unchained": {
+    "setcodes": [
+      304
+    ],
+    "cards": 21
+  },
+  "unchained-soul": {
+    "setcodes": [
+      4400
+    ],
+    "cards": 9,
+    "parent": "unchained"
+  },
+  "ursarctic": {
+    "setcodes": [
+      357
+    ],
+    "cards": 18
+  },
+  "utopia": {
+    "setcodes": [
+      4223
+    ],
+    "cards": 12,
+    "parent": "utopic"
+  },
+  "utopic": {
+    "setcodes": [
+      127
+    ],
+    "cards": 30
+  },
+  "utopic-future": {
+    "setcodes": [
+      8319
+    ],
+    "cards": 4,
+    "parent": "utopic"
+  },
+  "vaalmonica": {
+    "setcodes": [
+      412
+    ],
+    "cards": 16
+  },
+  "valkyrie": {
+    "setcodes": [
+      290
+    ],
+    "cards": 13
+  },
+  "vampire": {
+    "setcodes": [
+      142
+    ],
+    "cards": 31
+  },
+  "vanquish-soul": {
+    "setcodes": [
+      406
+    ],
+    "cards": 15
+  },
+  "vaylantz": {
+    "setcodes": [
+      382
+    ],
+    "cards": 16
+  },
+  "veda": {
+    "setcodes": [
+      514
+    ],
+    "cards": 2
+  },
+  "vehicroid": {
+    "setcodes": [
+      4118
+    ],
+    "cards": 4,
+    "parent": "roid"
+  },
+  "vendread": {
+    "setcodes": [
+      262
+    ],
+    "cards": 22
+  },
+  "venom": {
+    "setcodes": [
+      80
+    ],
+    "cards": 14
+  },
+  "vernusylph": {
+    "setcodes": [
+      387
+    ],
+    "cards": 10
+  },
+  "virtual-world": {
+    "setcodes": [
+      336
+    ],
+    "cards": 16
+  },
+  "virtual-world-gate": {
+    "setcodes": [
+      4432
+    ],
+    "cards": 3,
+    "parent": "virtual-world"
+  },
+  "visas": {
+    "setcodes": [
+      409
+    ],
+    "cards": 3
+  },
+  "vision-hero": {
+    "setcodes": [
+      20488
+    ],
+    "cards": 10,
+    "parent": "hero"
+  },
+  "voiceless-voice": {
+    "setcodes": [
+      414
+    ],
+    "cards": 10
+  },
+  "void": {
+    "setcodes": [
+      197
+    ],
+    "cards": 18
+  },
+  "volcanic": {
+    "setcodes": [
+      50
+    ],
+    "cards": 17
+  },
+  "vylon": {
+    "setcodes": [
+      48
+    ],
+    "cards": 26
+  },
+  "war-rock": {
+    "setcodes": [
+      353
+    ],
+    "cards": 15
+  },
+  "warrior": {
+    "setcodes": [
+      102
+    ],
+    "cards": 86
+  },
+  "watt": {
+    "setcodes": [
+      14
+    ],
+    "cards": 32
+  },
+  "wedju": {
+    "setcodes": [
+      431
+    ],
+    "cards": 2
+  },
+  "welcome-labrynth": {
+    "setcodes": [
+      4479
+    ],
+    "cards": 3,
+    "parent": "labrynth"
+  },
+  "white": {
+    "setcodes": [
+      415,
+      1373
+    ],
+    "cards": 5
+  },
+  "white-aura": {
+    "setcodes": [
+      4511
+    ],
+    "cards": 5,
+    "parent": "white"
+  },
+  "white-forest": {
+    "setcodes": [
+      426
+    ],
+    "cards": 17
+  },
+  "wind-up": {
+    "setcodes": [
+      88
+    ],
+    "cards": 21
+  },
+  "windwitch": {
+    "setcodes": [
+      240
+    ],
+    "cards": 9
+  },
+  "winged-kuriboh": {
+    "setcodes": [
+      4260
+    ],
+    "cards": 5,
+    "parent": "kuriboh"
+  },
+  "wingman": {
+    "setcodes": [
+      389
+    ],
+    "cards": 7
+  },
+  "witchcrafter": {
+    "setcodes": [
+      296
+    ],
+    "cards": 30
+  },
+  "world-chalice": {
+    "setcodes": [
+      253
+    ],
+    "cards": 12
+  },
+  "world-legacy": {
+    "setcodes": [
+      254
+    ],
+    "cards": 35
+  },
+  "worm": {
+    "setcodes": [
+      62
+    ],
+    "cards": 41
+  },
+  "x-saber": {
+    "setcodes": [
+      4109
+    ],
+    "cards": 25,
+    "parent": "saber"
+  },
+  "xx-saber": {
+    "setcodes": [
+      12301
+    ],
+    "cards": 10,
+    "parent": "saber"
+  },
+  "xyz": {
+    "setcodes": [
+      115
+    ],
+    "cards": 65
+  },
+  "xyz-dragon": {
+    "setcodes": [
+      8307
+    ],
+    "cards": 6,
+    "parent": "xyz"
+  },
+  "yang-zing": {
+    "setcodes": [
+      158
+    ],
+    "cards": 19
+  },
+  "yosenju": {
+    "setcodes": [
+      179
+    ],
+    "cards": 18
+  },
+  "yubel": {
+    "setcodes": [
+      413,
+      1377
+    ],
+    "cards": 6
+  },
+  "yummy": {
+    "setcodes": [
+      449
+    ],
+    "cards": 14
+  },
+  "zefra": {
+    "setcodes": [
+      196
+    ],
+    "cards": 18
+  },
+  "zexal": {
+    "setcodes": [
+      126
+    ],
+    "cards": 27
+  },
+  "zoodiac": {
+    "setcodes": [
+      241
+    ],
+    "cards": 15
+  },
+  "zs": {
+    "setcodes": [
+      8318
+    ],
+    "cards": 5,
+    "parent": "zexal"
+  },
+  "zubaba": {
+    "setcodes": [
+      143
+    ],
+    "cards": 5
+  },
+  "zw": {
+    "setcodes": [
+      4222
+    ],
+    "cards": 14,
+    "parent": "zexal"
+  }
+}

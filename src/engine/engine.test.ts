@@ -40,10 +40,20 @@ describe('archetype registry', () => {
     expect(new Set(names).size).toBe(names.length);
   });
 
-  it('derives every id from its name', () => {
+  it('gives every id a url-safe slug shape', () => {
     for (const a of ARCHETYPES) {
-      expect(a.id, a.name).toBe(slugify(a.name));
-      expect(a.id.length, a.name).toBeGreaterThan(0);
+      expect(a.id, a.name).toMatch(/^[a-z0-9]+(-[a-z0-9]+)*$/);
+    }
+  });
+
+  it('bases each id on its name, allowing a suffix where slugs collide', () => {
+    // "Abyss" and "Abyss-" are separate setcodes that slug identically, so the
+    // second takes a numeric suffix rather than overwriting the first.
+    for (const a of ARCHETYPES) {
+      const base = slugify(a.name);
+      expect(a.id === base || new RegExp(`^${base}-\\d+$`).test(a.id), `${a.name} -> ${a.id}`).toBe(
+        true,
+      );
     }
   });
 
