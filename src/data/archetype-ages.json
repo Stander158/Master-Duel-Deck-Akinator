@@ -1,0 +1,3512 @@
+{
+  "ignister": {
+    "firstSeen": "2019-10",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "assault-mode": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 4,
+    "legacy": true
+  },
+  "a-i": {
+    "firstSeen": "2019-10",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "abyss": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "abyss-actor": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "abyss-script": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "abyss-2": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "adamancipator": {
+    "firstSeen": "2020-03",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "advanced-crystal-beast": {
+    "firstSeen": "2022-09",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "aesir": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "aether": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "alien": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "allure-queen": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ally-of-justice": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "altergeist": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "amazement": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "amazoness": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "amorphage": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ancient-gear": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ancient-warriors": {
+    "firstSeen": "2019-10",
+    "lastNewCard": "2022-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "apophis": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-03",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "apoqliphort": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "appliancer": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2021-06",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "aqua": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "aqua-jet": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "aquaactress": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "aquamirror": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "aquarium": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "arcana-force": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-08",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "archfiend": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 16,
+    "legacy": true
+  },
+  "argostars": {
+    "firstSeen": "2025-01",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "armed-dragon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-08",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "armored-xyz": {
+    "firstSeen": "2023-10",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "aroma": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "artifact": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "artorigus": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ashened": {
+    "firstSeen": "2024-02",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "assault-blackwing": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "atlantean": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "attraction": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2022-08",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "azamina": {
+    "firstSeen": "2024-10",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "b-e-s": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "bamboo-sword": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "barbaros": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2020-03",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "barian": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "barian-s": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-06",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "batteryman": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "battleguard": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "battlewasp": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "battlin-boxer": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "battlin-boxing": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "beast-s-battle": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "beetrooper": {
+    "firstSeen": "2021-08",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "black-luster-soldier": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "blackwing": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "blaze-accelerator": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "blue-tears": {
+    "firstSeen": "2022-02",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "blue-eyes": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 3,
+    "legacy": true
+  },
+  "bonding": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "borrel": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 7,
+    "legacy": true
+  },
+  "bounzer": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "branded": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2025-10",
+    "newCards12m": 1,
+    "legacy": false
+  },
+  "bujin": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "burning-abyss": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "buster-blader": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "butterspy": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "bystial": {
+    "firstSeen": "2022-09",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "celtic-guard": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "centur-ion": {
+    "firstSeen": "2023-11",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "change": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "chaos": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 6,
+    "legacy": true
+  },
+  "charmer": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "chemicritter": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "chronomaly": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "chrysalis": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "cipher": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-06",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "cipher-dragon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "clear-wing": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "cloudian": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "code-talker": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "codebreaker": {
+    "firstSeen": "2020-03",
+    "lastNewCard": "2020-03",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "constellar": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-11",
+    "newCards12m": 4,
+    "legacy": true
+  },
+  "counter": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "crusadia": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "crystal": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-12",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "crystal-beast": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "crystron": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-01",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "cubic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "cxyz": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "cyber": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 4,
+    "legacy": true
+  },
+  "cyber-angel": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "cyber-dragon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "cyberdark": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "cybernetic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "cynet": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "d-d": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 9,
+    "legacy": true
+  },
+  "d-d-d": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 6,
+    "legacy": true
+  },
+  "danger": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "dante": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "dark-contract": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-09",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "dark-lucius": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 4,
+    "legacy": true
+  },
+  "dark-magician": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "dark-magician-girl": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "dark-mimic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "dark-scorpion": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "dark-world": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "darklord": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 5,
+    "legacy": true
+  },
+  "deskbot": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "despia": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "destiny-hero": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "destruction-sword": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "diabell": {
+    "firstSeen": "2023-10",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "diabellstar": {
+    "firstSeen": "2023-10",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "dinomist": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "dinomorphia": {
+    "firstSeen": "2022-02",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "dinowrestler": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "djinn": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "dododo": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-09",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "dogmatika": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2025-10",
+    "newCards12m": 3,
+    "legacy": false
+  },
+  "doll-monster": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "dominus": {
+    "firstSeen": "2024-08",
+    "lastNewCard": "2026-08",
+    "newCards12m": 3,
+    "legacy": false
+  },
+  "doodle": {
+    "firstSeen": "2022-09",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "doodle-beast": {
+    "firstSeen": "2022-09",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "doodlebook": {
+    "firstSeen": "2022-09",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "dracoslayer": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-01",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "dracoverlord": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-09",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "dragon-ruler": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "dragonmaid": {
+    "firstSeen": "2019-08",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "dragontail": {
+    "firstSeen": "2025-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 3,
+    "legacy": false
+  },
+  "dragunity": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-11",
+    "newCards12m": 5,
+    "legacy": true
+  },
+  "dream-mirror": {
+    "firstSeen": "2019-09",
+    "lastNewCard": "2022-02",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "drytron": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2024-08",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "dual-avatar": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "duston": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "earthbound": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "earthbound-immortal": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "edge-imp": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "elder-entity": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "eldlich": {
+    "firstSeen": "2020-03",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "eldlixir": {
+    "firstSeen": "2020-03",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "elemental-hero": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-08",
+    "newCards12m": 4,
+    "legacy": true
+  },
+  "elemental-lord": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "elementsaber": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "emblema": {
+    "firstSeen": "2023-11",
+    "lastNewCard": "2024-08",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "empowered-warrior": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "endymion": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-01",
+    "newCards12m": 4,
+    "legacy": true
+  },
+  "entity": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "evil-eye": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "evil-hero": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "evil-twin": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "evol": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "evolsaur": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "evoltile": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "evolution-pill": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "evolzar": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "exodd-obliterate": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "exodia": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "exosister": {
+    "firstSeen": "2021-08",
+    "lastNewCard": "2026-02",
+    "newCards12m": 2,
+    "legacy": false
+  },
+  "eyes-restrict": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-01",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "f-a": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "fabled": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "familiar-possessed": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "favorite": {
+    "firstSeen": "2019-11",
+    "lastNewCard": "2026-03",
+    "newCards12m": 2,
+    "legacy": false
+  },
+  "fiendsmith": {
+    "firstSeen": "2024-08",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "fire-fist": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "fire-formation": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "fire-king": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "fire-king-avatar": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "firewall": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "fishborg": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "flamvell": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "floowandereeze": {
+    "firstSeen": "2021-07",
+    "lastNewCard": "2022-02",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "flower-cardian": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "fluffal": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "forbidden": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "forbidden-one": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "fortune-fairy": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "fortune-lady": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "fossil": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "frightfur": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-06",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "frog": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "fur-hire": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 5,
+    "legacy": true
+  },
+  "fusion-dragon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "g-golem": {
+    "firstSeen": "2022-09",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "gadget": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "gagaga": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 5,
+    "legacy": true
+  },
+  "gaia-the-fierce-knight": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-03",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "galaxy": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 4,
+    "legacy": true
+  },
+  "galaxy-eyes": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 3,
+    "legacy": true
+  },
+  "galaxy-eyes-tachyon-dragon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "gandora": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "gate-guardian": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "geargia": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "geargiano": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "gem": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "gem-knight": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "generaider": {
+    "firstSeen": "2019-08",
+    "lastNewCard": "2023-02",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "genex": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "genex-ally": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ghostrick": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ghoti": {
+    "firstSeen": "2022-08",
+    "lastNewCard": "2024-02",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "gimmick-puppet": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "gishki": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "gladiator": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "gladiator-beast": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "goblin": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "goblin-biker": {
+    "firstSeen": "2024-02",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "gogogo": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-09",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "gold-pride": {
+    "firstSeen": "2023-02",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "golden-land": {
+    "firstSeen": "2020-03",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "gottoms": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-11",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "gouki": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-09",
+    "newCards12m": 5,
+    "legacy": true
+  },
+  "gransolfachord": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "gravekeeper-s": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "graydle": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "guardian": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "gunkan": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "gusto": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "harpie": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "hazy": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "hazy-flame": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "heart": {
+    "firstSeen": "2022-05",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "heraldic-beast": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "heraldry": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "hero": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-08",
+    "newCards12m": 5,
+    "legacy": true
+  },
+  "heroic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "heroic-challenger": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "heroic-champion": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "hieratic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "hole": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "horus": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "horus-the-black-flame-dragon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "hydradrive": {
+    "firstSeen": "2026-03",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": false
+  },
+  "hyperion": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ice-barrier": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-08",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "icejade": {
+    "firstSeen": "2021-07",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "igknight": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "impcantation": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "infernity": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "infernoble": {
+    "firstSeen": "2019-10",
+    "lastNewCard": "2023-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "infernoble-arms": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2023-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "infernoble-knight": {
+    "firstSeen": "2019-10",
+    "lastNewCard": "2023-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "infernoid": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "infestation": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "infinitrack": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "inmato": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "invoked": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 4,
+    "legacy": true
+  },
+  "inzektor": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "iron-chain": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "jinzo": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "junk": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 6,
+    "legacy": true
+  },
+  "jurrac": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "k9": {
+    "firstSeen": "2025-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 3,
+    "legacy": false
+  },
+  "kaiju": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "kairyu-shin": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-06",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "karakuri": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "kashtira": {
+    "firstSeen": "2022-09",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "ki-sikil": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "knightmare": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "koa-ki-meiru": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "koala": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "kozmo": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "krawler": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "kuriboh": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "labrynth": {
+    "firstSeen": "2022-08",
+    "lastNewCard": "2023-10",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "labyrinth-wall": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-03",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "lady-of-lament": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-03",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "laundsallyn": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "laval": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "legendary-dragon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "legendary-knight": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "libromancer": {
+    "firstSeen": "2022-02",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "lightsworn": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "lil-la": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "live-twin": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "lswarm": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "lunalight": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-08",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "lv": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "lyrilusc": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-06",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "machina": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "machine-angel": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "madolche": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "magical-musket": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-12",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "magician": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 3,
+    "legacy": true
+  },
+  "magician-girl": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "magikey": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2022-06",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "magistus": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2025-04",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "magna-warrior": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-08",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "magnet-warrior": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 8,
+    "legacy": true
+  },
+  "majespecter": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "majestic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "malefic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "malicevorous": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "maliss": {
+    "firstSeen": "2024-08",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "mannadium": {
+    "firstSeen": "2023-05",
+    "lastNewCard": "2023-10",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "marincess": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "masked-hero": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-01",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "materiactor": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "mathmech": {
+    "firstSeen": "2019-08",
+    "lastNewCard": "2022-08",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "mayakashi": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "mecha-phantom-beast": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "megalith": {
+    "firstSeen": "2019-10",
+    "lastNewCard": "2025-11",
+    "newCards12m": 3,
+    "legacy": false
+  },
+  "mekk-knight": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "meklord": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "meklord-army": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "meklord-astro": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "meklord-emperor": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "melffy": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2026-07",
+    "newCards12m": 5,
+    "legacy": false
+  },
+  "melodious": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "melodious-maestra": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "memento": {
+    "firstSeen": "2023-11",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "mermail": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "metalfoes": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "metalmorph": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "metaphys": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "mikanko": {
+    "firstSeen": "2022-09",
+    "lastNewCard": "2025-06",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "millennium": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-03",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "mimighoul": {
+    "firstSeen": "2024-08",
+    "lastNewCard": "2026-06",
+    "newCards12m": 1,
+    "legacy": false
+  },
+  "mist-valley": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "mitsurugi": {
+    "firstSeen": "2025-01",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "mokey-mokey": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "monarch": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "morganite": {
+    "firstSeen": "2023-05",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "morphtronic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "mulcharmy": {
+    "firstSeen": "2024-08",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "mystic-swordsman": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "mystical-beast-of-the-forest": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "mystical-spirit-of-the-forest": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "mythical-beast": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "myutant": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2022-02",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "naturia": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "necrovalley": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "nekroz": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "nemeses": {
+    "firstSeen": "2020-03",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "nemleria": {
+    "firstSeen": "2023-05",
+    "lastNewCard": "2023-10",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "neo-spacian": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "neos": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "nephthys": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "nimble": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ninja": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ninjitsu-art": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "nitro": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "noble": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-09",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "noble-arms": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-09",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "noble-knight": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "nordic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "nordic-alfar": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "nordic-ascendant": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "nordic-beast": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "nordic-relic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "nouvelles": {
+    "firstSeen": "2023-06",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "number": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-08",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "number-c": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "number-c39": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "number-s": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "numeron": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "numeron-gate": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "numerounius": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "odd-eyes": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-08",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "of-the-forest": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "ogdoadic": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2023-10",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "ojama": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "old-entity": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "onomat": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-09",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "orcust": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "outer-entity": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "p-u-n-k": {
+    "firstSeen": "2021-08",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "paleozoic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "palladium": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "parshath": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "patissciel": {
+    "firstSeen": "2022-05",
+    "lastNewCard": "2022-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "pendulum": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 3,
+    "legacy": true
+  },
+  "pendulum-dragon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "pendulumgraph": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "penguin": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "performage": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "performapal": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "phantasm": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 12,
+    "legacy": true
+  },
+  "phantasm-spiral": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "phantom-beast": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-08",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "phantom-knights": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 6,
+    "legacy": true
+  },
+  "photon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "plunder-patroll": {
+    "firstSeen": "2020-03",
+    "lastNewCard": "2023-02",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "polymerization-fusion": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 7,
+    "legacy": true
+  },
+  "possessed": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 4,
+    "legacy": true
+  },
+  "potan": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "power-tool": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "prank-kids": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "predap": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 7,
+    "legacy": true
+  },
+  "predaplant": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 5,
+    "legacy": true
+  },
+  "prediction-princess": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "primite": {
+    "firstSeen": "2024-10",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "prophecy": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-01",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "psy-frame": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "psy-framegear": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "puppet": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "purrely": {
+    "firstSeen": "2022-09",
+    "lastNewCard": "2023-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "qli": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "r-genex": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ragnaraika": {
+    "firstSeen": "2024-05",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "raidraptor": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "rainbow-bridge": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-06",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "rank-down-magic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "rank-up-magic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "reactor": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "rebellion": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "recipe": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "red-dragon-archfiend": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "red-eyes": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "regenesis": {
+    "firstSeen": "2025-05",
+    "lastNewCard": "2025-09",
+    "newCards12m": 1,
+    "legacy": false
+  },
+  "relinquished": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-01",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "reptilianne": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "rescue-ace": {
+    "firstSeen": "2022-09",
+    "lastNewCard": "2026-02",
+    "newCards12m": 2,
+    "legacy": false
+  },
+  "resonator": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "rikka": {
+    "firstSeen": "2020-03",
+    "lastNewCard": "2022-08",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "ritual-beast": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ritual-beast-tamer": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ritual-beast-ulti": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "roid": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-08",
+    "newCards12m": 3,
+    "legacy": true
+  },
+  "rokket": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 4,
+    "legacy": true
+  },
+  "roland": {
+    "firstSeen": "2019-10",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "rose": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 5,
+    "legacy": true
+  },
+  "rose-dragon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "runick": {
+    "firstSeen": "2022-08",
+    "lastNewCard": "2023-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "ryu-ge": {
+    "firstSeen": "2024-08",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "ryzeal": {
+    "firstSeen": "2024-08",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "s-force": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2026-07",
+    "newCards12m": 5,
+    "legacy": false
+  },
+  "saber": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-01",
+    "newCards12m": 6,
+    "legacy": true
+  },
+  "salamandra": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "salamangreat": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "sangen": {
+    "firstSeen": "2024-05",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "scareclaw": {
+    "firstSeen": "2022-05",
+    "lastNewCard": "2023-02",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "schoolwork": {
+    "firstSeen": "2024-10",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "scrap": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-09",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "sea-stealth": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-06",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "secret-six-samurai": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "serket": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-03",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "seventh": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "shaddoll": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-11",
+    "newCards12m": 4,
+    "legacy": true
+  },
+  "shark": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-03",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "shark-drake": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "shien": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "shiranui": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "shiranui-spectralsword": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "silent-magician": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "silent-swordsman": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "simorgh": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "sinful-spoils": {
+    "firstSeen": "2023-07",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "six-samurai": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "six-strike": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "skull-guardian": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "sky-striker": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-01",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "sky-striker-ace": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "skyblaster": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "skyscraper": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "smile": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "snake-eye": {
+    "firstSeen": "2023-07",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "solfachord": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2025-09",
+    "newCards12m": 3,
+    "legacy": false
+  },
+  "speedroid": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-08",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "spellbook": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-01",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "sphinx": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-09",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "spirit-message": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "spiritual-art": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "spiritual-beast": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "spiritual-beast-tamer": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-11",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "spiritual-earth-art": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "spiritual-fire-art": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "spiritual-water-art": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "spiritual-wind-art": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "spright": {
+    "firstSeen": "2022-08",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "springans": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2026-02",
+    "newCards12m": 2,
+    "legacy": false
+  },
+  "sprout": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "spyral": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "spyral-gear": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "spyral-mission": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "star-seraph": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "stardust": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "starry-knight": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2021-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "starving-venom": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "stealth-kragen": {
+    "firstSeen": "2021-06",
+    "lastNewCard": "2021-06",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "steelswarm": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "stellarknight": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-11",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "subterror": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "subterror-behemoth": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "sun": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2021-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "sunavalon": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "sunseed": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "sunvine": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2021-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "super-defense-robot": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "super-quant": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "super-quantal-mech-beast": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "super-quantum": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "superheavy-samurai": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "superheavy-samurai-soul": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "supreme-king": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "supreme-king-dragon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "supreme-king-gate": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "swordsoul": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2025-11",
+    "newCards12m": 1,
+    "legacy": false
+  },
+  "sylvan": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "symphonic-warrior": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 5,
+    "legacy": true
+  },
+  "synchro": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 7,
+    "legacy": true
+  },
+  "synchro-dragon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "synchron": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "t-g": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "tachyon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "tearlaments": {
+    "firstSeen": "2022-08",
+    "lastNewCard": "2023-02",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "tellarknight": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-11",
+    "newCards12m": 3,
+    "legacy": true
+  },
+  "tenpai-dragon": {
+    "firstSeen": "2024-05",
+    "lastNewCard": "2024-08",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "tenyi": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "the-agent": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "the-phantom-knights": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 6,
+    "legacy": true
+  },
+  "the-weather": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "therion": {
+    "firstSeen": "2022-05",
+    "lastNewCard": "2022-08",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "thunder-dragon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2020-03",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "time-thief": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "timelord": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "tindangle": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2020-03",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "tistina": {
+    "firstSeen": "2023-07",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "toon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "topologic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "toy": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "trap-hole": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "traptrix": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-12",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "tri-brigade": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2026-02",
+    "newCards12m": 3,
+    "legacy": false
+  },
+  "triamid": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "trickstar": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "true-draco-true-king": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-09",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "u-a": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-01",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ultimate-crystal": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-06",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "ultimate-insect": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "umbral-horror": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "unchained": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 7,
+    "legacy": true
+  },
+  "unchained-soul": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "ursarctic": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2023-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "utopia": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "utopic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "utopic-future": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "vaalmonica": {
+    "firstSeen": "2023-11",
+    "lastNewCard": "2024-10",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "valkyrie": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-10",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "vampire": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "vanquish-soul": {
+    "firstSeen": "2023-06",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "vaylantz": {
+    "firstSeen": "2022-08",
+    "lastNewCard": "2023-07",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "veda": {
+    "firstSeen": "2023-07",
+    "lastNewCard": "2023-10",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "vehicroid": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "vendread": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2022-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "venom": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "vernusylph": {
+    "firstSeen": "2022-08",
+    "lastNewCard": "2022-09",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "virtual-world": {
+    "firstSeen": "2020-03",
+    "lastNewCard": "2023-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "virtual-world-gate": {
+    "firstSeen": "2021-01",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "visas": {
+    "firstSeen": "2022-05",
+    "lastNewCard": "2023-10",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "vision-hero": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "voiceless-voice": {
+    "firstSeen": "2024-02",
+    "lastNewCard": "2024-08",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "void": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-11",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "volcanic": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2023-08",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "vylon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "war-rock": {
+    "firstSeen": "2021-05",
+    "lastNewCard": "2022-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "warrior": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-06",
+    "newCards12m": 11,
+    "legacy": true
+  },
+  "watt": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-09",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "wedju": {
+    "firstSeen": "2024-07",
+    "lastNewCard": "2024-08",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "welcome-labrynth": {
+    "firstSeen": "2022-08",
+    "lastNewCard": "2023-02",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "white": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "white-aura": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-02",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "white-forest": {
+    "firstSeen": "2024-08",
+    "lastNewCard": "2025-05",
+    "newCards12m": 0,
+    "legacy": false
+  },
+  "wind-up": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "windwitch": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-05",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "winged-kuriboh": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "wingman": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "witchcrafter": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-07",
+    "newCards12m": 10,
+    "legacy": true
+  },
+  "world-chalice": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "world-legacy": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "worm": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "x-saber": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-11",
+    "newCards12m": 4,
+    "legacy": true
+  },
+  "xx-saber": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "xyz": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 2,
+    "legacy": true
+  },
+  "xyz-dragon": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2026-03",
+    "newCards12m": 1,
+    "legacy": true
+  },
+  "yang-zing": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "yosenju": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "yubel": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2024-03",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "yummy": {
+    "firstSeen": "2025-07",
+    "lastNewCard": "2026-02",
+    "newCards12m": 3,
+    "legacy": false
+  },
+  "zefra": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "zexal": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "zoodiac": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2019-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "zs": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-06",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "zubaba": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2025-07",
+    "newCards12m": 0,
+    "legacy": true
+  },
+  "zw": {
+    "firstSeen": "2019-07",
+    "lastNewCard": "2021-06",
+    "newCards12m": 0,
+    "legacy": true
+  }
+}

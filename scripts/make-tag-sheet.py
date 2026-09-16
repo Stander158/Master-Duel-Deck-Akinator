@@ -26,14 +26,15 @@ from openpyxl.worksheet.datavalidation import DataValidation
 ROOT = Path(__file__).resolve().parent.parent
 NAMES_FILE = ROOT / "src/data/archetype-names.json"
 SETCODES_FILE = ROOT / "src/data/archetype-setcodes.json"
+AGES_FILE = ROOT / "src/data/archetype-ages.json"
 
 TAG_COLUMNS = 8
 TAG_VOCAB_ROWS = 120
 
 # Archetypes sheet layout. The Tags sheet counts usage across the tag columns,
 # so both sheets have to agree on where they are — derive, never hardcode.
-KEEP_COL = 5
-FIRST_TAG_COL = 6
+KEEP_COL = 8
+FIRST_TAG_COL = 9
 LAST_TAG_COL = FIRST_TAG_COL + TAG_COLUMNS - 1
 
 FONT = "Arial"
@@ -72,9 +73,14 @@ def build_instructions(sheet) -> None:
         ("  tag1-8   dropdowns listing whatever you defined on the Tags sheet.", False, 11),
         ("Leave unused tag columns blank; order within a row does not matter.", False, 11),
         ("", False, 11),
-        ("Two generated columns are there to help you judge:", False, 11),
-        ("  cards    how many distinct cards carry this setcode", False, 11),
-        ("  part_of  the parent archetype, when this is a branch of one", False, 11),
+        ("Generated columns are there to help you judge:", False, 11),
+        ("  cards     how many distinct cards carry this setcode", False, 11),
+        ("  part_of   the parent archetype, when this is a branch of one", False, 11),
+        ("  debut     month the first card appeared; pre-2019 means older than", False, 11),
+        ("            the card database's own history goes", False, 11),
+        ("  last_new  month the most recent card appeared — the best signal for", False, 11),
+        ("            whether the archetype is still being supported", False, 11),
+        ("  new_12m   cards added in the last twelve months", False, 11),
         ("Card count is a hint, not an answer: Eldlich shows 2 because its spells and", False, 11),
         ("traps sit under Golden Land, and of-the-forest shows 8 while being no deck at", False, 11),
         ("all. Sort by it to move fast, but the call is yours.", False, 11),
@@ -149,9 +155,9 @@ def build_tags(sheet) -> None:
     sheet.freeze_panes = "A2"
 
 
-def build_archetypes(sheet, entries: list[dict], meta: dict) -> None:
+def build_archetypes(sheet, entries: list[dict], meta: dict, ages: dict) -> None:
     headers = (
-        ["id", "name", "cards", "part_of", "keep"]
+        ["id", "name", "cards", "part_of", "debut", "last_new", "new_12m", "keep"]
         + [f"tag{i}" for i in range(1, TAG_COLUMNS + 1)]
         + ["tag_count", "notes"]
     )
@@ -169,17 +175,21 @@ def build_archetypes(sheet, entries: list[dict], meta: dict) -> None:
         row = offset + 2
         info = meta.get(archetype["id"], {})
 
+        age = ages.get(archetype["id"], {})
         # Generated columns: read-only context for the judgement call.
         for column, value in (
             (1, archetype["id"]),
             (2, archetype["name"]),
             (3, info.get("cards")),
             (4, info.get("parent", "")),
+            (5, "pre-2019" if age.get("legacy") else age.get("firstSeen", "")),
+            (6, age.get("lastNewCard", "")),
+            (7, age.get("newCards12m")),
         ):
             cell = sheet.cell(row=row, column=column, value=value)
             cell.font = Font(name=FONT, color="595959")
             cell.border = BORDER
-            if column == 3:
+            if column in (3, 5, 6, 7):
                 cell.alignment = Alignment(horizontal="center")
 
         for column in (keep_col, *range(first_tag_col, last_tag_col + 1), notes_col):
@@ -222,7 +232,10 @@ def build_archetypes(sheet, entries: list[dict], meta: dict) -> None:
         f"{get_column_letter(keep_col)}2:{get_column_letter(keep_col)}{len(entries) + 1}"
     )
 
-    for column, width in (("A", 24), ("B", 28), ("C", 8), ("D", 20), ("E", 8)):
+    for column, width in (
+        ("A", 24), ("B", 28), ("C", 8), ("D", 18),
+        ("E", 10), ("F", 10), ("G", 9), ("H", 8),
+    ):
         sheet.column_dimensions[column].width = width
     for column in range(first_tag_col, last_tag_col + 1):
         sheet.column_dimensions[get_column_letter(column)].width = 16
@@ -246,6 +259,13 @@ def load_entries() -> list[dict]:
     return entries
 
 
+def load_ages() -> dict:
+    try:
+        return json.loads(AGES_FILE.read_text())
+    except FileNotFoundError:
+        return {}
+
+
 def load_meta() -> dict:
     try:
         return json.loads(SETCODES_FILE.read_text())
@@ -262,7 +282,7 @@ def main() -> None:
     build_instructions(workbook.active)
     workbook.active.title = "Instructions"
     build_tags(workbook.create_sheet("Tags"))
-    build_archetypes(workbook.create_sheet("Archetypes"), entries, meta)
+    build_archetypes(workbook.create_sheet("Archetypes"), entries, meta, load_ages())
 
     workbook.save(out)
     print(f"Wrote {out} — {len(entries)} archetypes, {TAG_COLUMNS} tag columns")
