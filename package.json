@@ -13,7 +13,8 @@
     "test:watch": "vitest",
     "sync:archetypes": "node scripts/sync-archetypes.mjs",
     "sync:cards": "vite-node scripts/sync-cards.ts",
-    "sync:ages": "node scripts/sync-archetype-ages.mjs"
+    "sync:ages": "node scripts/sync-archetype-ages.mjs",
+    "sync:facts": "node scripts/sync-archetype-facts.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
