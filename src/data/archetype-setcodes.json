@@ -745,8 +745,7 @@
       348,
       5399
     ],
-    "cards": 2,
-    "parent": "doll"
+    "cards": 2
   },
   "dominus": {
     "setcodes": [
@@ -841,8 +840,7 @@
       33,
       5402
     ],
-    "cards": 29,
-    "parent": "earth"
+    "cards": 29
   },
   "earthbound-immortal": {
     "setcodes": [
@@ -2296,8 +2294,7 @@
       212,
       34081
     ],
-    "cards": 11,
-    "parent": "gaia-the-dragon-champion"
+    "cards": 11
   },
   "palladium": {
     "setcodes": [

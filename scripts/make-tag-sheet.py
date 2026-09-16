@@ -233,7 +233,17 @@ def build_archetypes(sheet, entries: list[dict], meta: dict) -> None:
 
 
 def load_entries() -> list[dict]:
-    return json.loads(NAMES_FILE.read_text())
+    """Archetypes ordered by card count, biggest first.
+
+    The sheet is worked top-down — the largest setcodes are unambiguously real
+    decks and the tail is where the card-text markers live — so sorting by size
+    puts the judgement calls together instead of scattering them alphabetically.
+    Excel's filter row can restore A-Z whenever that is more useful.
+    """
+    entries = json.loads(NAMES_FILE.read_text())
+    meta = load_meta()
+    entries.sort(key=lambda e: (-meta.get(e["id"], {}).get("cards", 0), e["name"].lower()))
+    return entries
 
 
 def load_meta() -> dict:

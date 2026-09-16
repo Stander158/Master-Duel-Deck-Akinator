@@ -169,6 +169,14 @@ const empty = entries.filter((e) => e.cards === 0);
 
 if (kept.length === 0) throw new Error('cutoff kept nothing — check --min');
 
+// A parent resolved against every setname, including the ones with no cards
+// that never get written. Drop links that would dangle: Paleozoic's second
+// setcode pointed at an archetype that is not in the output at all.
+const keptIds = new Set(kept.map((e) => e.id));
+for (const entry of kept) {
+  if (entry.parent && !keptIds.has(entry.parent)) delete entry.parent;
+}
+
 const setcodes = {};
 for (const e of kept) {
   setcodes[e.id] = { setcodes: e.setcodes, cards: e.cards, ...(e.parent ? { parent: e.parent } : {}) };
