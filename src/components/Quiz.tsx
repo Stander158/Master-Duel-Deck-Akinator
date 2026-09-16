@@ -1,4 +1,5 @@
 import { useCallback, useMemo, useState } from 'react';
+import { DECKS } from '../data/decks';
 import { QUESTIONS } from '../data/questions';
 import { buildResults } from '../engine/scoring';
 import { nextQuestion, STANDARD_QUIZ } from '../engine/selector';
@@ -11,7 +12,7 @@ export function Quiz({ title, resultCount = 5 }: { title: string; resultCount?: 
   const [seed] = useState(() => Math.floor(Math.random() * 0x7fffffff));
 
   const question = useMemo(
-    () => nextQuestion(answers, seed, STANDARD_QUIZ),
+    () => nextQuestion(answers, seed, STANDARD_QUIZ, DECKS),
     [answers, seed],
   );
 
@@ -68,16 +69,16 @@ export function Quiz({ title, resultCount = 5 }: { title: string; resultCount?: 
     );
   }
 
-  const results = buildResults(answers).slice(0, resultCount);
+  const results = buildResults(answers, DECKS).slice(0, resultCount);
 
   return (
     <div className="stack">
       <h1>Results</h1>
       <ol className="results">
         {results.map((r) => (
-          <li key={r.deck.id}>
-            <a className="result" href={hrefFor({ name: 'deck', id: r.deck.id })}>
-              <span>{r.deck.name}</span>
+          <li key={r.item.id}>
+            <a className="result" href={hrefFor({ name: 'deck', id: r.item.id })}>
+              <span>{r.item.name}</span>
               <span className="result__pct">{r.matchPercent}%</span>
             </a>
           </li>

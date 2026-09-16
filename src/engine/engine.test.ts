@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { ARCHETYPES } from '../data/archetypes';
 import { ALL_TAGS, DECKS, decksUsing } from '../data/decks';
 import { slugify } from '../data/slugify';
-import { entropy, optionDelta, scoreDecks, softmax } from './scoring';
+import { entropy, optionDelta, scoreItems, softmax } from './scoring';
 import { nextQuestion, rankQuestions, STANDARD_QUIZ } from './selector';
 import type { Answer, Deck, Question } from './types';
 
@@ -57,9 +57,23 @@ describe('archetype registry', () => {
     }
   });
 
-  it('is reference data only — no tags, no ratings', () => {
+  it('carries derived tags and a family root', () => {
     for (const a of ARCHETYPES) {
-      expect(Object.keys(a).sort(), a.name).toEqual(['id', 'name']);
+      expect(Array.isArray(a.tags), a.name).toBe(true);
+      expect(a.family.length, a.name).toBeGreaterThan(0);
+    }
+  });
+
+  it('resolves every family root to a real archetype', () => {
+    const ids = new Set(ARCHETYPES.map((a) => a.id));
+    for (const a of ARCHETYPES) {
+      expect(ids.has(a.family), `${a.name} -> ${a.family}`).toBe(true);
+    }
+  });
+
+  it('gives a parentless archetype itself as its family root', () => {
+    for (const a of ARCHETYPES) {
+      if (!a.parent) expect(a.family, a.name).toBe(a.id);
     }
   });
 });
@@ -120,12 +134,12 @@ describe('scoring', () => {
   });
 
   it('scores every deck at zero before any answer', () => {
-    expect(scoreDecks([], POOL)).toEqual([0, 0, 0, 0]);
+    expect(scoreItems([], POOL)).toEqual([0, 0, 0, 0]);
   });
 
   it('separates the pool once both questions are answered', () => {
     const options = [QUESTIONS[0]!.options[0]!, QUESTIONS[1]!.options[0]!];
-    const scores = scoreDecks(options, POOL);
+    const scores = scoreItems(options, POOL);
     // A is fast + cheap, so it must outscore every other combination.
     expect(Math.max(...scores)).toBe(scores[0]);
   });

@@ -1,10 +1,31 @@
-/**
- * A card family — the building block, not the thing you queue up with.
- * Reference data only: archetypes carry no tags and are never recommended.
- */
-export interface Archetype {
+/** Anything the engine can score: it only ever reads `tags`. */
+export interface Guessable {
   id: string;
   name: string;
+  tags: string[];
+}
+
+/**
+ * A card family — the building block, not the thing you queue up with.
+ *
+ * Tags here are derived from the card database by `npm run sync:facts`, not
+ * written by hand, so Akinator mode can guess archetypes without anyone
+ * tagging 585 of them.
+ */
+export interface Archetype extends Guessable {
+  /**
+   * Root of the setcode family this belongs to, itself included.
+   *
+   * Crystal Beast, Advanced Crystal Beast and Ultimate Crystal all sit under
+   * Crystal. A player names one and answers about another — the Rainbow Dragon
+   * Fusions are Ultimate Crystal, not Crystal Beast — so a guess anywhere in
+   * the family counts as finding the deck.
+   */
+  family: string;
+  /** Direct parent, when this is a branch of a larger setcode. */
+  parent?: string;
+  /** How many cards carry this setcode, descendants included. */
+  cards: number;
 }
 
 /**
@@ -14,9 +35,7 @@ export interface Archetype {
  * so `Branded Despia` and `Tenyi Swordsoul` are decks built from two
  * archetypes each, while a pure build uses one.
  */
-export interface Deck {
-  id: string;
-  name: string;
+export interface Deck extends Guessable {
   /** Archetype ids this deck is built from. */
   archetypes: string[];
   tags: string[];
@@ -69,8 +88,8 @@ export interface Answer {
   optionId: string | null;
 }
 
-export interface ScoredDeck {
-  deck: Deck;
+export interface Scored<T extends Guessable> {
+  item: T;
   score: number;
   matchPercent: number;
   probability: number;

@@ -231,3 +231,70 @@ console.log(`  uses GY   (>=25% of cards):       ${all.filter((f) => f.toGravePc
 console.log(`  burns     (>=15% of cards):       ${all.filter((f) => f.damagePct >= 0.15).length}`);
 console.log(`  negates   (>=15% of cards):       ${all.filter((f) => f.negatePct >= 0.15).length}`);
 console.log(`\nWrote ${join(dataDir, 'archetype-facts.json')}`);
+
+// ---------------------------------------------------------------------------
+// Derived tags
+//
+// The recommendation engine scores anything carrying `tags: string[]`, so the
+// facts above are flattened into tags and Akinator mode runs on the same
+// scoring code as deck recommendation. Thresholds live here, in one place, and
+// are the things playtesting corrects.
+//
+// Deliberately absent: monster/spell/trap "focus". Playing a round against
+// Maliss showed a card-count ratio cannot express which cards do the work —
+// 58% monsters reads as monster-focused to a player, while Sky Striker at 60%
+// is driven entirely by its spells. That needs a reviewed tag, not a cutoff.
+// ---------------------------------------------------------------------------
+
+const ages = JSON.parse(await readFile(join(dataDir, 'archetype-ages.json'), 'utf8'));
+
+const tagged = {};
+for (const [id, f] of Object.entries(facts)) {
+  const age = ages[id];
+  const tags = [];
+  const add = (condition, tag) => condition && tags.push(tag);
+
+  add(f.race?.share >= 0.8, 'one-type');
+  add(f.attribute?.share >= 0.8, 'one-attribute');
+  add(f.level && f.level.share >= 0.5, 'one-level');
+  add(f.highLevelPct >= 0.5, 'high-level');
+
+  if (f.race?.share >= 0.5) tags.push(`type-${f.race.value}`);
+  if (f.attribute?.share >= 0.5) tags.push(`attr-${f.attribute.value}`);
+
+  for (const method of f.extraDeck) tags.push(`has-${method}`);
+  add(f.hasPendulum, 'has-pendulum');
+  add(f.hasRitual, 'has-ritual');
+  add(f.extraDeckMethods === 0, 'no-extra-deck');
+  add(f.extraDeckMethods >= 2, 'multi-extra-deck');
+  add(f.extraDeckMethods >= 1 && f.extraDeckPrimaryShare >= 0.7, 'one-extra-deck-method');
+
+  add(f.hasNormalMonster, 'has-normal-monster');
+  add(f.hasCounterTrap, 'has-counter-trap');
+  add(f.hasFieldSpell, 'has-field-spell');
+  add(f.oddSubtypes.length > 0, 'odd-subtype');
+  add(f.isSubArchetype, 'sub-archetype');
+
+  add(f.banishPct >= 0.25, 'banishes');
+  add(f.toGravePct >= 0.2, 'uses-graveyard');
+  add(f.damagePct >= 0.15, 'effect-damage');
+  add(f.negatePct >= 0.15, 'negates');
+
+  if (age) {
+    add(age.legacy, 'era-legacy');
+    add(!age.legacy && age.firstSeen >= '2021', 'era-modern');
+    add(age.newCards12m > 0, 'still-supported');
+    add(age.lastNewCard < '2022', 'forgotten');
+  }
+
+  tagged[id] = tags;
+}
+
+await writeFile(
+  join(dataDir, 'archetype-tags.json'),
+  JSON.stringify(tagged, null, 2) + '\n',
+);
+
+const vocabulary = [...new Set(Object.values(tagged).flat())].sort();
+console.log(`\n${vocabulary.length} derived tags across ${Object.keys(tagged).length} archetypes`);
+console.log(`Wrote ${join(dataDir, 'archetype-tags.json')}`);

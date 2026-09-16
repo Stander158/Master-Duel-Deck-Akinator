@@ -1,4 +1,5 @@
 import { Archive } from './components/Archive';
+import { Akinator } from './components/Akinator';
 import { ArchetypePage } from './components/ArchetypePage';
 import { Deck } from './components/Deck';
 import { Home } from './components/Home';
@@ -13,7 +14,7 @@ export default function App() {
     <Shell route={route}>
       {route.name === 'home' && <Home />}
       {route.name === 'build' && <Quiz title="Which deck should I build?" />}
-      {route.name === 'akinator' && <Quiz title="Akinator" resultCount={3} />}
+      {route.name === 'akinator' && <Akinator />}
       {route.name === 'identity' && <Quiz title="Which deck is mine?" resultCount={1} />}
       {route.name === 'browse' && <Archive />}
       {route.name === 'deck' && <Deck id={route.id} />}
