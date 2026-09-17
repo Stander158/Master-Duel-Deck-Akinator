@@ -9,6 +9,14 @@ import { hrefFor } from '../hooks/useHashRoute';
 /** Guessing stops once one archetype is this far ahead, or questions run out. */
 const CONFIG = { minQuestions: 8, maxQuestions: 20, confidence: 0.45 };
 
+/** Belief as a readable percentage, without rounding a real value to zero. */
+function formatBelief(probability: number): string {
+  const pct = probability * 100;
+  if (pct >= 10) return `${Math.round(pct)}%`;
+  if (pct >= 1) return `${pct.toFixed(1)}%`;
+  return '<1%';
+}
+
 export function Akinator() {
   const [answers, setAnswers] = useState<Answer[]>([]);
   const [rejected, setRejected] = useState<string[]>([]);
@@ -24,10 +32,37 @@ export function Akinator() {
     [answers, seed, pool],
   );
 
-  const results = useMemo(
-    () => (question ? [] : buildResults(answers, pool, AKINATOR_QUESTIONS)),
-    [question, answers, pool],
-  );
+  /**
+   * Ranked candidates, ties broken by how many cards the archetype has.
+   *
+   * Early on, hundreds match every answer exactly and score identically. The
+   * default order then falls back to registry order, which surfaces whatever
+   * happens to sort first — Alien, Ancient Warriors. Preferring the larger
+   * setcode is a better guess at what someone has in mind than the alphabet.
+   */
+  const results = useMemo(() => {
+    const ranked = buildResults(answers, pool, AKINATOR_QUESTIONS);
+    return ranked.sort((a, b) => b.score - a.score || b.item.cards - a.item.cards);
+  }, [answers, pool]);
+
+  /**
+   * How many archetypes are still genuinely in contention.
+   *
+   * Scoring is soft — a wrong answer must not delete the right archetype — so
+   * nothing is ever eliminated and a raw pool count would sit at 585 forever.
+   * Counting how many candidates it takes to cover most of the belief is the
+   * honest version of "how many are left", and it does fall as answers land.
+   */
+  const inPlay = useMemo(() => {
+    let mass = 0;
+    let count = 0;
+    for (const result of results) {
+      mass += result.probability;
+      count++;
+      if (mass >= 0.9) break;
+    }
+    return count;
+  }, [results]);
 
   const answer = useCallback(
     (optionId: string | null) => {
@@ -41,7 +76,7 @@ export function Akinator() {
     return (
       <div className="stack">
         <p className="step">
-          Question {answers.length + 1} · {pool.length} archetypes left
+          Question {answers.length + 1} · {inPlay} still in play
         </p>
         <h1>{question.prompt}</h1>
         <ul className="options">
@@ -67,6 +102,22 @@ export function Akinator() {
             Back
           </button>
         </div>
+
+        {answers.length > 0 && (
+          <section className="stack">
+            <h2 className="label">Currently leading</h2>
+            <ol className="results">
+              {results.slice(0, 3).map((result) => (
+                <li key={result.item.id}>
+                  <span className="result">
+                    <span>{result.item.name}</span>
+                    <span className="result__pct">{formatBelief(result.probability)}</span>
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
       </div>
     );
   }
@@ -93,7 +144,7 @@ export function Akinator() {
       <p className="step">My guess</p>
       <h1>{top.item.name}</h1>
       <p className="muted">
-        {top.matchPercent}% match after {answers.length} questions
+        {formatBelief(top.probability)} confident after {answers.length} questions
       </p>
 
       {family.length > 0 && (
